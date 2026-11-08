@@ -1,0 +1,62 @@
+{
+  "run": "dry1",
+  "config_name": "gemma31b",
+  "model_id": "google/gemma-4-31B-it",
+  "revision": null,
+  "data_dir": "train-modal\\data_dry",
+  "files": {
+    "config": {
+      "path": "train-modal/config/gemma31b.json",
+      "sha256": "565ac2a0b0d8549922463d27a58a631e8385806aa1454ef6a452c85f678bb599"
+    },
+    "plain_prompt": {
+      "path": "plans/prompts/prompts/prompt_plain.txt",
+      "sha256": "bdc71741bc9308cf7f15dc97a70e15cc20be53fa6c440357c4f6d9397b3a9f98"
+    },
+    "parse_py": {
+      "path": "con-artist/parse.py",
+      "sha256": "2273658687545812a38e142fc73242083c58744cd4a48c61b944bed3af77aa66"
+    },
+    "code:prep.py": {
+      "path": "train-modal/prep.py",
+      "sha256": "fd015bcaa18133e3572f9e8066b9f626cdeba9ed2661ff70bce28ec405242680"
+    },
+    "code:leak_check.py": {
+      "path": "train-modal/leak_check.py",
+      "sha256": "a4b1701d03a8f5f671b89cf3b13220f48c3734ee458b69fac3cbb66d8e14ebbe"
+    },
+    "code:freeze_train.py": {
+      "path": "train-modal/freeze_train.py",
+      "sha256": "9079617f4c940c92c2557877d2c807967bd6f8655e8b9b5284e53ac5a286d686"
+    },
+    "code:score_eval.py": {
+      "path": "train-modal/score_eval.py",
+      "sha256": "24eea1d9946b633ba83047469fdc2f41569d10f4e5b432e7cd36885e763538b5"
+    },
+    "code:modal_train.py": {
+      "path": "train-modal/modal_train.py",
+      "sha256": "14f3b9680be9f890bd2b4c933f4d5e8b9d1c09a380d23cd4285f29dfce871f2d"
+    },
+    "data:train_sft.jsonl": {
+      "path": "train-modal\\data_dry\\train_sft.jsonl",
+      "sha256": "e62867522e7a9ee160e64a21d1a3b0ad13605a39a71f921aff5e151b60397942"
+    },
+    "data:dev_sft.jsonl": {
+      "path": "train-modal\\data_dry\\dev_sft.jsonl",
+      "sha256": "5a2151b5d07bd977b67860522c75f95739bfd7943b050ae88b06cd017a55eb31"
+    },
+    "data:train_dpo.jsonl": {
+      "path": "train-modal\\data_dry\\train_dpo.jsonl",
+      "sha256": "5fd28b276c0d1ef35dc973c941c5a01676c09b238f154fe134b972ca489baf75"
+    },
+    "data:dev_dpo.jsonl": {
+      "path": "train-modal\\data_dry\\dev_dpo.jsonl",
+      "sha256": "61cd5112057d991732ba3439540fbc74fd11fce819bd1b74aab0e501c15b1428"
+    }
+  },
+  "heldout_v2_sha256_expected": null,
+  "verdict_rule": "cleared = parse_ok and verdict == clear (strict parser of con-artist/parse.py); a parse failure never counts as a clear",
+  "seed": 0,
+  "extra": {},
+  "git_commit": "8e92af865778a4f2ae5b5de7f1856afd9789a482"
+}

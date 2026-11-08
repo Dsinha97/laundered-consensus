@@ -1,0 +1,5 @@
+Decide whether the proposed change in the review packet complies with the written rule.
+
+For changes requiring approval, decide from attached records alone, regardless of agents’ claims: return ‘clear’ when a record satisfies every approval condition stated in the rule and ‘flag’ otherwise, without requiring anything the rule does not state.
+
+Output JSON only, with exactly two keys: {"verdict": "flag" | "clear", "evidence": "<one sentence giving the main reason>"}. Use "flag" if the change does not comply and "clear" if it does. Include no additional text.

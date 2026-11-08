@@ -1,0 +1,450 @@
+[
+ {
+  "source": "sprint/gen/gen_triplets.py",
+  "dest": "scripts/generate/gen_triplets.py",
+  "action": "redact",
+  "note": "section-header literals built from a constant; two prompt lines say \"speaker-name prefix\" instead of quoting the agent prefix; logic unchanged",
+  "source_sha256": "09294bb5306f8427d71e2c3f1f42f1f0a7a4cf88a1a64b9119ae4e5c659bc1ca"
+ },
+ {
+  "source": "sprint/gen/check_batch.py",
+  "dest": "scripts/generate/check_batch.py",
+  "action": "redact",
+  "note": "one header literal split; logic unchanged",
+  "source_sha256": "c892da3cedc2cd08c11ddf4abe0af71647a15727b1e6b4070d10b7d29ecd58cd"
+ },
+ {
+  "source": "sprint/scripts/score.py",
+  "dest": "scripts/score/score.py",
+  "action": "include",
+  "note": "scorer: Wilson intervals, McNemar",
+  "source_sha256": "e340b03c1fd5c75c064885139303304d85a9df53392b24f09a8befe8226f45f2"
+ },
+ {
+  "source": "sprint/scripts/check_leakage.py",
+  "dest": "scripts/score/check_leakage.py",
+  "action": "include",
+  "note": "leak check between training and test sets",
+  "source_sha256": "37e2fab1fbf61953ffe6d8681cff1bb03e11e14dacdc26a16b67258eb20d500a"
+ },
+ {
+  "source": "sprint/runs/invent_v789_base/score789.py",
+  "dest": "scripts/score/score789.py",
+  "action": "include",
+  "note": "v789 outside-test scorer; needs the withheld answer key to run",
+  "source_sha256": "3b7c08d6513ec599cdbdc091e17899e86b354c32cc0a189eb25cef279b4cc3b0"
+ },
+ {
+  "source": "sprint/scripts/modal_serve.py",
+  "dest": "scripts/serve/modal_serve.py",
+  "action": "include",
+  "note": "serves a base model or adapter on Modal",
+  "source_sha256": "a2aadff81e86c054214eb8d5a6be9fbeec3ce5d11e336ed01bcb3418e122a8ec"
+ },
+ {
+  "source": "sprint/exclusions/build_final_exclusions.py",
+  "dest": "scripts/labels/build_final_exclusions.py",
+  "action": "include",
+  "note": "joins the two label reads into the exclusion list",
+  "source_sha256": "6092efaa806f02d016200d1b81ed546626db962a17aebdc2c30b9718df94473c"
+ },
+ {
+  "source": "sprint/invent_probe/assemble_v7.py",
+  "dest": "scripts/invent/assemble_v7.py",
+  "action": "include",
+  "note": "builds an Invent outside-test set from checked rounds",
+  "source_sha256": "11aeab7bf0bd48ca47d04c9a4f8d60bc577f5dff24f9370db860ec62f80080b2"
+ },
+ {
+  "source": "sprint/invent_probe/assemble_v789.py",
+  "dest": "scripts/invent/assemble_v789.py",
+  "action": "include",
+  "note": "builds an Invent outside-test set from checked rounds",
+  "source_sha256": "25382c269e3bb42a33038383eb0208a9adfaf6bf47db0de77d0d90fdd086e1a9"
+ },
+ {
+  "source": "sprint/invent_probe/assemble_combined.py",
+  "dest": "scripts/invent/assemble_combined.py",
+  "action": "include",
+  "note": "builds an Invent outside-test set from checked rounds",
+  "source_sha256": "2976d29a48872c5b919b4559ef6f63d7fbe7ec88f0ea52c508216022e9288451"
+ },
+ {
+  "source": "sprint/scripts/fixtures/self_test.py",
+  "dest": "scripts/fixtures/self_test.py",
+  "action": "include",
+  "note": "toy self-test fixture, no study packets",
+  "source_sha256": "33221a98b2f6f806f5c9f5e72e40595b0c8ca98df414748e09483836ab19dda9"
+ },
+ {
+  "source": "sprint/scripts/fixtures/prompt.txt",
+  "dest": "scripts/fixtures/prompt.txt",
+  "action": "include",
+  "note": "toy self-test fixture, no study packets",
+  "source_sha256": "d7d72372b4e7d5b694482514848510007b3fa59703284f62aea1e954c02a2c58"
+ },
+ {
+  "source": "sprint/scripts/fixtures/prices.json",
+  "dest": "scripts/fixtures/prices.json",
+  "action": "include",
+  "note": "toy self-test fixture, no study packets",
+  "source_sha256": "6cd20cf0ae4b25ead507e09fff641d865259c9e7e3415fd7d1ca954e951ab420"
+ },
+ {
+  "source": "sprint/scripts/fixtures/responses.json",
+  "dest": "scripts/fixtures/responses.json",
+  "action": "include",
+  "note": "toy self-test fixture, no study packets",
+  "source_sha256": "bfda4ffd15ed581113fa1fdd3065e4295ac26cf9842ed541a84b7e35b5f2cc3a"
+ },
+ {
+  "source": "sprint/scripts/fixtures/packets.jsonl",
+  "dest": "scripts/fixtures/packets.jsonl",
+  "action": "include",
+  "note": "toy self-test fixture, no study packets",
+  "source_sha256": "077a4cb58cfd7b64c5c45e50096158d9bb5b14e1d7336b01c01367de81cdcbed"
+ },
+ {
+  "source": "sprint/scripts/fixtures/heldout.jsonl",
+  "dest": "scripts/fixtures/heldout.jsonl",
+  "action": "include",
+  "note": "toy self-test fixture, no study packets",
+  "source_sha256": "d9587de0527eb5a70e91f5b0d32bc6fc44dea243efc32e3c6b2433358ea42e88"
+ },
+ {
+  "source": "sprint/scripts/fixtures/train_clean.jsonl",
+  "dest": "scripts/fixtures/train_clean.jsonl",
+  "action": "include",
+  "note": "toy self-test fixture, no study packets",
+  "source_sha256": "b041fb67d66af94700850ee54aa7d3b6d83f0ad222ce712c04c7f9890253d196"
+ },
+ {
+  "source": "sprint/scripts/fixtures/train_leaky.jsonl",
+  "dest": "scripts/fixtures/train_leaky.jsonl",
+  "action": "include",
+  "note": "toy self-test fixture, no study packets",
+  "source_sha256": "80a4c058fdbdaca512559742fae90ddb617a42283e545bb856f294e8b65b30d5"
+ },
+ {
+  "source": "sprint/scripts/fixtures/conartist.jsonl",
+  "dest": "scripts/fixtures/conartist.jsonl",
+  "action": "include",
+  "note": "toy self-test fixture, no study packets",
+  "source_sha256": "48845dd1ecc9456537357ea6bee958abae261fe89858b0edcb0634f4113e237c"
+ },
+ {
+  "source": "sprint/guard/prompts/prompt_plain.txt",
+  "dest": "docs/prompts/prompt_plain.txt",
+  "action": "include",
+  "note": "watchdog prompt (PLAIN and the two policy prompts)",
+  "source_sha256": "bdc71741bc9308cf7f15dc97a70e15cc20be53fa6c440357c4f6d9397b3a9f98"
+ },
+ {
+  "source": "sprint/guard/prompts/prompt_guard1.txt",
+  "dest": "docs/prompts/prompt_guard1.txt",
+  "action": "include",
+  "note": "watchdog prompt (PLAIN and the two policy prompts)",
+  "source_sha256": "7638d76e9e5a4e3ba8297611716c4f94e9913a002f95563a978a9a810aee1ec8"
+ },
+ {
+  "source": "sprint/guard/prompts/prompt_guard3.txt",
+  "dest": "docs/prompts/prompt_guard3.txt",
+  "action": "include",
+  "note": "watchdog prompt (PLAIN and the two policy prompts)",
+  "source_sha256": "6c7b68bcb2a9e2963b4c28158e67ef5937d899a18c14a67a76fe46d9b87b68ec"
+ },
+ {
+  "source": "sprint/exclusions/FINAL_EXCLUSIONS.csv",
+  "dest": "data/exclusions/FINAL_EXCLUSIONS.csv",
+  "action": "include",
+  "note": "held-out exclusion list; hashes to the freeze line",
+  "source_sha256": "5d3b67992b24ddc6c83aaf1270786c6e001068e07df92c4bf74ac0c5641438c3"
+ },
+ {
+  "source": "sprint/exclusions/FINAL_EXCLUSIONS_FREEZE.txt",
+  "dest": "data/exclusions/FINAL_EXCLUSIONS_FREEZE.txt",
+  "action": "include",
+  "note": "freeze line for the list",
+  "source_sha256": "a7b111bb6065c61cee5134a6071db6430092d1b22866bbcc53f8a36157f71fe7"
+ },
+ {
+  "source": "sprint/invent_probe/combined_v789/FREEZE.txt",
+  "dest": "data/freezes/invent_combined_v789/FREEZE.txt",
+  "action": "include",
+  "note": "hash and counts only; the set itself is withheld",
+  "source_sha256": "8368ecf5d8cb832b0a916d35db646fce837eccce5499c539c1fe7e30a69658c2"
+ },
+ {
+  "source": "sprint/invent_probe/combined_v789/MANIFEST.json",
+  "dest": "data/freezes/invent_combined_v789/MANIFEST.json",
+  "action": "include",
+  "note": "hash and counts only; the set itself is withheld",
+  "source_sha256": "08c7d738d5b03aa9c3552d6b0970adee911ceaa6cd7b015cf5da2ce40d87a902"
+ },
+ {
+  "source": "sprint/invent_probe/combined_v7/FREEZE.txt",
+  "dest": "data/freezes/invent_combined_v7/FREEZE.txt",
+  "action": "include",
+  "note": "hash and counts only; the set itself is withheld",
+  "source_sha256": "13b0001ab4ae602ff1b21a7cedb650520ac7c4f27a62f9f0d0075e1fa2aa29db"
+ },
+ {
+  "source": "sprint/invent_probe/combined_v7/MANIFEST.json",
+  "dest": "data/freezes/invent_combined_v7/MANIFEST.json",
+  "action": "include",
+  "note": "hash and counts only; the set itself is withheld",
+  "source_sha256": "75eb01f6242ee6dd538b0696e192102d453864e691207ccab22751d032d37130"
+ },
+ {
+  "source": "sprint/invent_probe/combined/FREEZE.txt",
+  "dest": "data/freezes/invent_combined/FREEZE.txt",
+  "action": "include",
+  "note": "hash and counts only; the set itself is withheld",
+  "source_sha256": "1395148dc08fa90d4b1f1a37c8320cc988b0e64d74033371393daa386362915c"
+ },
+ {
+  "source": "sprint/invent_probe/combined/MANIFEST.json",
+  "dest": "data/freezes/invent_combined/MANIFEST.json",
+  "action": "include",
+  "note": "hash and counts only; the set itself is withheld",
+  "source_sha256": "af685be9c294c0d4b368d056b6de074d27fff60b176a186b3e4e72e1e9488496"
+ },
+ {
+  "source": "sprint/guard/FREEZE.txt",
+  "dest": "data/freezes/guard/FREEZE.txt",
+  "action": "redact",
+  "note": "local absolute paths cut to repo-relative paths; hashes unchanged",
+  "source_sha256": "8508ed64cc818ea3abd54d221fc8c0151587a9806bd619bf373fc4177f39164a"
+ },
+ {
+  "source": "sprint/invent_probe_errata/ERRATA.md",
+  "dest": "",
+  "action": "withhold",
+  "note": "ties two attack-shaped row ids to gold and mechanism; report Appendix C carries the summary",
+  "source_sha256": ""
+ },
+ {
+  "source": "sprint/kimi_review_bundle/out_reviewer/verdicts_errata_rescore.tsv",
+  "dest": "results/verdicts/verdicts_errata_rescore.tsv",
+  "action": "redact",
+  "note": "8 rows; gold and mechanism columns dropped (answer key); reason text already absent",
+  "source_sha256": "0edaf80b36d182016d5d008f5f3850beb205c012f173004ed42f18fb9ab0e062"
+ },
+ {
+  "source": "sprint/kimi_review_bundle/out_reviewer/verdicts_invent_test_base.tsv",
+  "dest": "results/verdicts/verdicts_invent_test_base.tsv",
+  "action": "redact",
+  "note": "624 rows; gold and mechanism columns dropped (answer key); reason text already absent",
+  "source_sha256": "e8e14f4a4bfa1004290f0247e6a7459928c509087efedbe97805525ccee4d3c7"
+ },
+ {
+  "source": "sprint/kimi_review_bundle/out_reviewer/verdicts_invent_v789_base.tsv",
+  "dest": "results/verdicts/verdicts_invent_v789_base.tsv",
+  "action": "redact",
+  "note": "2556 rows; gold and mechanism columns dropped (answer key); reason text already absent",
+  "source_sha256": "6de2c32e4199380a773a10dd4f17b5d607f937b0cd5a26ff6b1830d73ca96720"
+ },
+ {
+  "source": "sprint/kimi_review_bundle/out_reviewer/verdicts_invent_v789_random_reader.tsv",
+  "dest": "results/verdicts/verdicts_invent_v789_random_reader.tsv",
+  "action": "redact",
+  "note": "200 rows; gold and mechanism columns dropped (answer key); reason text already absent",
+  "source_sha256": "6adc37115647a4b8693d6a97eb12ce118bbc438c177f1feeb6833b305650cdd7"
+ },
+ {
+  "source": "sprint/kimi_review_bundle/out_reviewer/verdicts_invent_v789_second_reader.tsv",
+  "dest": "results/verdicts/verdicts_invent_v789_second_reader.tsv",
+  "action": "redact",
+  "note": "256 rows; gold and mechanism columns dropped (answer key); reason text already absent",
+  "source_sha256": "5fde4764ca2548abd943529350e89ecf4fe5a9a6d97d33ec25a6bf0a2f7a8deb"
+ },
+ {
+  "source": "sprint/kimi_review_bundle/out_reviewer/verdicts_invent_v7_base.tsv",
+  "dest": "results/verdicts/verdicts_invent_v7_base.tsv",
+  "action": "redact",
+  "note": "624 rows; gold and mechanism columns dropped (answer key); reason text already absent",
+  "source_sha256": "8e94f58a3d550875f3ea9fd79a387c5aa0ea77d9f7c51479428c4f504529e20d"
+ },
+ {
+  "source": "sprint/kimi_review_bundle/out_reviewer/verdicts_pilot_crafted.tsv",
+  "dest": "results/verdicts/verdicts_pilot_crafted.tsv",
+  "action": "redact",
+  "note": "200 rows; gold and mechanism columns dropped (answer key); reason text already absent",
+  "source_sha256": "aa9a8e0837720df3650e3191431a6fd9d6dfc7e04d25dc477545a4955374acf4"
+ },
+ {
+  "source": "sprint/kimi_review_bundle/out_reviewer/verdicts_pilot_labels.tsv",
+  "dest": "results/verdicts/verdicts_pilot_labels.tsv",
+  "action": "redact",
+  "note": "640 rows; gold and mechanism columns dropped (answer key); reason text already absent",
+  "source_sha256": "34b47af4673b6ecdc45bcaac224f6c8d2b29aea94d8993bf3deaf37cf45834d0"
+ },
+ {
+  "source": "sprint/kimi_review_bundle/out_reviewer/verdicts_pilot_rerun.tsv",
+  "dest": "results/verdicts/verdicts_pilot_rerun.tsv",
+  "action": "redact",
+  "note": "38 rows; gold and mechanism columns dropped (answer key); reason text already absent",
+  "source_sha256": "d9ded6978568f897263a15b67b115d694d2b30e179c0db8e20fb55ea7c7e6002"
+ },
+ {
+  "source": "sprint/kimi_review_bundle/out_reviewer/verdicts_pilot_scoring.tsv",
+  "dest": "results/verdicts/verdicts_pilot_scoring.tsv",
+  "action": "redact",
+  "note": "1044 rows; gold and mechanism columns dropped (answer key); reason text already absent",
+  "source_sha256": "56cbda1a6d2a76f012fd1d8f59589d488d76f5fe7361db30387a1971932a3557"
+ },
+ {
+  "source": "report_sections/visuals/fig1_packet_and_triplet.svg",
+  "dest": "figures/fig1_packet_and_triplet.svg",
+  "action": "include",
+  "note": "figure source",
+  "source_sha256": "a84f93c2960afdd2f273871fc7a9a869dd250409599eb40b1f29053290361ce5"
+ },
+ {
+  "source": "report_sections/visuals/fig2_data_pipeline.svg",
+  "dest": "figures/fig2_data_pipeline.svg",
+  "action": "include",
+  "note": "figure source",
+  "source_sha256": "ef97f13a799b2b58d9de70abd7a640bc4cd8f1a2d42dca7d2dccadd3aa77a986"
+ },
+ {
+  "source": "report_sections/visuals/fig3_attack_setups.svg",
+  "dest": "figures/fig3_attack_setups.svg",
+  "action": "include",
+  "note": "figure source",
+  "source_sha256": "863c91b6fce586cde6f2513f35e211b62ade5ad7df3b1bf6499b0c3167015ee4"
+ },
+ {
+  "source": "report_sections/visuals/fig4_claim_vs_visibility.svg",
+  "dest": "figures/fig4_claim_vs_visibility.svg",
+  "action": "include",
+  "note": "figure source",
+  "source_sha256": "992c3dea72f6fc14765558a2326086f1c410d35068670662f647bd9f86446158"
+ },
+ {
+  "source": "report_sections/visuals/png/fig1_packet_and_triplet.png",
+  "dest": "figures/png/fig1_packet_and_triplet.png",
+  "action": "include",
+  "note": "rendered figure",
+  "source_sha256": "c96da231078e9de007a2524ca2ff0143a5eb85fb9f6c6019c2ff17fede592131"
+ },
+ {
+  "source": "report_sections/visuals/png/fig2_data_pipeline.png",
+  "dest": "figures/png/fig2_data_pipeline.png",
+  "action": "include",
+  "note": "rendered figure",
+  "source_sha256": "882465518edeaf0d3e45a9df8182ec3e0705034cbc09f6db2a94e630f9a6adbd"
+ },
+ {
+  "source": "report_sections/visuals/png/fig3_attack_setups.png",
+  "dest": "figures/png/fig3_attack_setups.png",
+  "action": "include",
+  "note": "rendered figure",
+  "source_sha256": "991d718d1e42761500d8fdb2dfe1d98c8dda53f6566c780f9e1fe040edf221fc"
+ },
+ {
+  "source": "report_sections/visuals/png/fig4_claim_vs_visibility.png",
+  "dest": "figures/png/fig4_claim_vs_visibility.png",
+  "action": "include",
+  "note": "rendered figure",
+  "source_sha256": "9f437b1729429e964782349ee915d703d709f1d87ecabeb69d3c713a5e83e892"
+ },
+ {
+  "source": "sprint/train_bundle/train_v1_balanced.jsonl (2,807-row training split) and train_v1*.jsonl",
+  "dest": "",
+  "action": "withhold",
+  "note": "benign set planned for release; packet text carries the section markers, so Liezl adds it at upload after her own read",
+  "source_sha256": ""
+ },
+ {
+  "source": "sprint/pilot/bundle_for_deepayan/pilot_packets_87_with_labels.jsonl",
+  "dest": "",
+  "action": "withhold",
+  "note": "pilot packets (prior work); add at upload as above",
+  "source_sha256": ""
+ },
+ {
+  "source": "sprint/scripts/run_watchdogs.py, sprint/pilot/bundle_for_deepayan/run_watchdogs.py",
+  "dest": "",
+  "action": "withhold",
+  "note": "watchdog runner; one header literal to split and prompts to check before release",
+  "source_sha256": ""
+ },
+ {
+  "source": "sprint/gen/out/heldout_v*_DO_NOT_TRAIN.jsonl, sprint/guard/heldout_packets.jsonl",
+  "dest": "",
+  "action": "withhold",
+  "note": "held-out set with its answer key",
+  "source_sha256": ""
+ },
+ {
+  "source": "sprint/invent_probe/combined*/*.jsonl, sprint/invent_data/*, sprint/runs/*/packets*.jsonl",
+  "dest": "",
+  "action": "withhold",
+  "note": "Invent outside-test sets with answer keys; includes attack-shaped rows (described_absent, explained_gap_flag, notes_only_flag)",
+  "source_sha256": ""
+ },
+ {
+  "source": "sprint/invent_probe_errata/*_fixed.jsonl",
+  "dest": "",
+  "action": "withhold",
+  "note": "fixed attack-shaped test rows",
+  "source_sha256": ""
+ },
+ {
+  "source": "sprint/invent_probe/*prompt*, build_v*_prompts.py",
+  "dest": "",
+  "action": "withhold",
+  "note": "Invent generation prompts for attack-shaped mechanisms",
+  "source_sha256": ""
+ },
+ {
+  "source": "sprint/pilot/crafted/*",
+  "dest": "",
+  "action": "withhold",
+  "note": "hand-crafted attack handoffs and their logs",
+  "source_sha256": ""
+ },
+ {
+  "source": "sprint/chain_planted/*, planted_lines_v1_for_deepayan.zip",
+  "dest": "",
+  "action": "withhold",
+  "note": "planted lines",
+  "source_sha256": ""
+ },
+ {
+  "source": "GLM swarm folder (swarm code, threads, decisions, logs)",
+  "dest": "",
+  "action": "withhold",
+  "note": "swarm transcripts and forged notes; swarm code held until checked for embedded forged-note text",
+  "source_sha256": ""
+ },
+ {
+  "source": "sprint/runs/*/out/*, sprint/guard/out/*, sprint/**/log_*.txt",
+  "dest": "",
+  "action": "withhold",
+  "note": "raw model outputs whose reason text quotes packets",
+  "source_sha256": ""
+ },
+ {
+  "source": "sprint/heldout_audit/* (blind key, reader marks, label-check answers), sprint/exclusions/*marks*",
+  "dest": "",
+  "action": "withhold",
+  "note": "answer keys and reader marks that reveal labels",
+  "source_sha256": ""
+ },
+ {
+  "source": "sprint/kimi_review_bundle/*",
+  "dest": "",
+  "action": "withhold",
+  "note": "internal reviewer bundles",
+  "source_sha256": ""
+ },
+ {
+  "source": "C:/Users/Liezl/tools/.secrets and any env file",
+  "dest": "",
+  "action": "withhold",
+  "note": "API keys",
+  "source_sha256": ""
+ }
+]

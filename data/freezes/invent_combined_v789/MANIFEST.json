@@ -1,0 +1,21 @@
+{
+  "built_utc": "2026-11-07 16:02:32 UTC",
+  "rows": 795,
+  "near_copies_dropped": 1,
+  "clear_flag": [
+    280,
+    515
+  ],
+  "by_mechanism": {
+    "described_absent": 126,
+    "described_present": 52,
+    "explained_gap_clear": 45,
+    "explained_gap_flag": 53,
+    "notes_only_clear": 183,
+    "notes_only_flag": 164,
+    "silent_record": 172
+  },
+  "sha256": "0dd228744effc1c4063b0bf22aed0e4cc719336740f47a23193384f1a673e167",
+  "includes": "round-7 frozen set (156 rows, 4bd25dbe) plus usable rows from round 8 re-probes, round 8 scale-ups and round 9",
+  "use": "outside test only; never train on it (team decision 7 Nov)"
+}

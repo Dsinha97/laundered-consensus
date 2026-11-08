@@ -1,0 +1,21 @@
+{
+  "_note": "Fallback model. Sprint work, 6 Nov 2026 or later. A think block fails the strict verdict parser, so enable_thinking is false for chat-template rendering.",
+  "name": "qwen9b",
+  "model_id": "Qwen/Qwen3.5-9B",
+  "revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+  "volume_dir": "Qwen3.5-9B",
+  "gpu": "H100",
+  "gpu_fallback": "A100-80GB",
+  "enable_thinking": false,
+  "lora": {"r": 16, "alpha": 32, "dropout": 0.05,
+           "target_modules": ["q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "up_proj", "down_proj"],
+           "exclude_regex": "vision|audio|visual|multi_modal"},
+  "sft": {"lr": 2e-4, "epochs": 1, "effective_batch": 16, "warmup_ratio": 0.03, "scheduler": "cosine",
+          "completion_only_loss": true},
+  "dpo": {"beta": 0.1, "lr": 1e-5, "epochs": 1, "effective_batch": 16},
+  "max_len_cap": 2048,
+  "max_dropped_fraction": 0.01,
+  "seed": 0,
+  "gpu_price_per_hour_usd": null,
+  "spend_cap_usd": 6
+}

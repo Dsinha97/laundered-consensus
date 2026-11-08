@@ -1,0 +1,42 @@
+{
+  "run": "dry1",
+  "kind": "dpo",
+  "model": "google/gemma-4-31B-it",
+  "freeze_sha256": "98520b1416c958d1121fa4c8f43f3695931750b5ae678845e131d013377164f7",
+  "start_adapter": "/runs/dry1/adapter",
+  "train_rows": 46,
+  "dropped_over_cap": 0,
+  "dev_rows": 18,
+  "steps_planned": 3,
+  "steps_done": 3,
+  "stopped_early": null,
+  "train_seconds": 80.1,
+  "dev_loss_mean": 0.3858,
+  "log": [
+    {
+      "step": 1,
+      "loss": 0.6967,
+      "pref_acc": 0.375,
+      "seconds": 28.1
+    },
+    {
+      "step": 2,
+      "loss": 0.5249,
+      "pref_acc": 1.0,
+      "seconds": 51.0
+    },
+    {
+      "step": 3,
+      "loss": 0.4097,
+      "pref_acc": 1.0,
+      "seconds": 73.3
+    }
+  ],
+  "peak_gb": 66.4,
+  "hp": {
+    "beta": 0.1,
+    "lr": 1e-05,
+    "epochs": 1,
+    "effective_batch": 16
+  }
+}

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <style>
+      .t{font-size:15px;fill:#1f2a44}
+      .s{font-size:12.5px;fill:#4a5672}
+      .h{font-size:20px;font-weight:700;fill:#1f2a44}
+      .lab{font-size:13px;font-weight:700;letter-spacing:.06em}
+    </style>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#8a94ab"/></marker>
+  </defs>
+  <rect width="1000" height="620" fill="#fbf8f2"/>
+  <text x="40" y="44" class="h">What the watchdog reads, and how one case becomes three</text>
+  <text x="40" y="68" class="s">Only the records differ between the three versions, so any change in the verdict comes from the records.</text>
+  <rect x="40" y="96" width="330" height="480" rx="14" fill="#fff" stroke="#d5d9e3"/>
+  <text x="60" y="128" class="lab" fill="#1f2a44">ONE PACKET</text>
+  <rect x="60" y="144" width="290" height="80" rx="9" fill="#e7eefb"/>
+  <text x="76" y="170" class="t" font-weight="700">1 · Rule</text>
+  <text x="76" y="192" class="s">A default, plus one exception that needs</text>
+  <text x="76" y="209" class="s">a named person’s written approval</text>
+  <rect x="60" y="236" width="290" height="66" rx="9" fill="#e7eefb"/>
+  <text x="76" y="262" class="t" font-weight="700">2 · Proposed change</text>
+  <text x="76" y="284" class="s">What the team wants to do</text>
+  <rect x="60" y="314" width="290" height="80" rx="9" fill="#fdecd9"/>
+  <text x="76" y="340" class="t" font-weight="700">3 · Handoffs</text>
+  <text x="76" y="362" class="s">Agents’ chatter: “approved last time”</text>
+  <text x="76" y="379" class="s" font-style="italic">Never evidence on its own</text>
+  <rect x="60" y="406" width="290" height="80" rx="9" fill="#dcf2ee" stroke="#2a9d8f" stroke-width="2"/>
+  <text x="76" y="432" class="t" font-weight="700">4 · Records</text>
+  <text x="76" y="454" class="s">Ticket, email, minutes, log line…</text>
+  <text x="76" y="471" class="s" font-style="italic">The only thing that can prove approval</text>
+  <rect x="60" y="500" width="290" height="58" rx="9" fill="#1f2a44"/>
+  <text x="76" y="524" font-size="14" font-weight="700" fill="#fff">Watchdog verdict</text>
+  <text x="76" y="544" font-size="12.5" fill="#c9d2e6">clear  or  flag, with a one-line reason</text>
+  <path d="M370 446 C 420 446, 420 190, 466 190" fill="none" stroke="#8a94ab" stroke-width="2" marker-end="url(#ar)"/>
+  <path d="M370 446 L 466 340" fill="none" stroke="#8a94ab" stroke-width="2" marker-end="url(#ar)"/>
+  <path d="M370 446 C 420 446, 420 500, 466 500" fill="none" stroke="#8a94ab" stroke-width="2" marker-end="url(#ar)"/>
+  <text x="384" y="296" class="s">swap only</text>
+  <text x="384" y="312" class="s">the records</text>
+  <rect x="470" y="130" width="490" height="120" rx="14" fill="#fff" stroke="#2a9d8f" stroke-width="2"/>
+  <text x="492" y="160" class="lab" fill="#2a9d8f">SUPPORTED · the real thing</text>
+  <text x="492" y="186" class="t">The right person approved this exact change,</text>
+  <text x="492" y="206" class="t">within the limit.</text>
+  <rect x="830" y="196" width="110" height="36" rx="18" fill="#2a9d8f"/>
+  <text x="885" y="219" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">✓ clear</text>
+  <rect x="470" y="280" width="490" height="120" rx="14" fill="#fff" stroke="#e76f51" stroke-width="2"/>
+  <text x="492" y="310" class="lab" fill="#e76f51">LAUNDERED · the bluff</text>
+  <text x="492" y="336" class="t">The handoffs say it was approved,</text>
+  <text x="492" y="356" class="t">but no record shows it.</text>
+  <rect x="830" y="346" width="110" height="36" rx="18" fill="#e76f51"/>
+  <text x="885" y="369" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">✗ flag</text>
+  <rect x="470" y="430" width="490" height="146" rx="14" fill="#fff" stroke="#e9a23b" stroke-width="2"/>
+  <text x="492" y="460" class="lab" fill="#c47f12">NEAR-MISS · looks right, isn’t</text>
+  <text x="492" y="486" class="t">A record is there, but something is off:</text>
+  <text x="492" y="508" class="s">wrong approver · wrong role · wrong scope ·</text>
+  <text x="492" y="526" class="s">over the limit · only “discussed”, no decision</text>
+  <rect x="830" y="522" width="110" height="36" rx="18" fill="#e76f51"/>
+  <text x="885" y="545" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">✗ flag</text>
+</svg>

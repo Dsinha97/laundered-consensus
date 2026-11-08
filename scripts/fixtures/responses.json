@@ -1,0 +1,530 @@
+{
+  "neutral": {
+    "fake-A": {
+      "fake-1": {
+        "output": [
+          {
+            "type": "message",
+            "content": [
+              {
+                "type": "output_text",
+                "text": "{\"verdict\": \"flag\", \"evidence\": \"FAKE canned verdict\"}"
+              }
+            ]
+          }
+        ],
+        "usage": {
+          "input_tokens": 10,
+          "output_tokens": 5
+        }
+      },
+      "fake-2": {
+        "output": [
+          {
+            "type": "message",
+            "content": [
+              {
+                "type": "output_text",
+                "text": "{\"verdict\": \"clear\", \"evidence\": \"FAKE canned verdict\"}"
+              }
+            ]
+          }
+        ],
+        "usage": {
+          "input_tokens": 10,
+          "output_tokens": 5
+        }
+      },
+      "fake-3": {
+        "output": [
+          {
+            "type": "message",
+            "content": [
+              {
+                "type": "output_text",
+                "text": "{\"verdict\": \"flag\", \"evidence\": \"FAKE canned verdict\"}"
+              }
+            ]
+          }
+        ],
+        "usage": {
+          "input_tokens": 10,
+          "output_tokens": 5
+        }
+      },
+      "fake-4": {
+        "output": [
+          {
+            "type": "message",
+            "content": [
+              {
+                "type": "output_text",
+                "text": "{\"verdict\": \"clear\", \"evidence\": \"FAKE canned verdict\"}"
+              }
+            ]
+          }
+        ],
+        "usage": {
+          "input_tokens": 10,
+          "output_tokens": 5
+        }
+      },
+      "fake-5": {
+        "output": [
+          {
+            "type": "message",
+            "content": [
+              {
+                "type": "output_text",
+                "text": "{\"verdict\": \"flag\", \"evidence\": \"FAKE canned verdict\"}"
+              }
+            ]
+          }
+        ],
+        "usage": {
+          "input_tokens": 10,
+          "output_tokens": 5
+        }
+      }
+    },
+    "fake-B": {
+      "fake-1": {
+        "output": [
+          {
+            "type": "message",
+            "content": [
+              {
+                "type": "output_text",
+                "text": "{\"verdict\": \"clear\", \"evidence\": \"FAKE canned verdict\"}"
+              }
+            ]
+          }
+        ],
+        "usage": {
+          "input_tokens": 10,
+          "output_tokens": 5
+        }
+      },
+      "fake-2": {
+        "output": [
+          {
+            "type": "message",
+            "content": [
+              {
+                "type": "output_text",
+                "text": "{\"verdict\": \"flag\", \"evidence\": \"FAKE canned verdict\"}"
+              }
+            ]
+          }
+        ],
+        "usage": {
+          "input_tokens": 10,
+          "output_tokens": 5
+        }
+      },
+      "fake-3": {
+        "output": [
+          {
+            "type": "message",
+            "content": [
+              {
+                "type": "output_text",
+                "text": "{\"verdict\": \"flag\", \"evidence\": \"FAKE canned verdict\"}"
+              }
+            ]
+          }
+        ],
+        "usage": {
+          "input_tokens": 10,
+          "output_tokens": 5
+        }
+      },
+      "fake-4": {
+        "output": [
+          {
+            "type": "message",
+            "content": [
+              {
+                "type": "output_text",
+                "text": "{\"verdict\": \"flag\", \"evidence\": \"FAKE canned verdict\"}"
+              }
+            ]
+          }
+        ],
+        "usage": {
+          "input_tokens": 10,
+          "output_tokens": 5
+        }
+      },
+      "fake-5": {
+        "output": [
+          {
+            "type": "message",
+            "content": [
+              {
+                "type": "output_text",
+                "text": "{\"verdict\": \"flag\", \"evidence\": \"FAKE canned verdict\"}"
+              }
+            ]
+          }
+        ],
+        "usage": {
+          "input_tokens": 10,
+          "output_tokens": 5
+        }
+      }
+    }
+  },
+  "plain": {
+    "fake-A": {
+      "fake-1": {
+        "output": [
+          {
+            "type": "message",
+            "content": [
+              {
+                "type": "output_text",
+                "text": "{\"verdict\": \"flag\", \"evidence\": \"FAKE canned verdict\"}"
+              }
+            ]
+          }
+        ],
+        "usage": {
+          "input_tokens": 10,
+          "output_tokens": 5
+        }
+      },
+      "fake-2": {
+        "output": [
+          {
+            "type": "message",
+            "content": [
+              {
+                "type": "output_text",
+                "text": "{\"verdict\": \"clear\", \"evidence\": \"FAKE canned verdict\"}"
+              }
+            ]
+          }
+        ],
+        "usage": {
+          "input_tokens": 10,
+          "output_tokens": 5
+        }
+      },
+      "fake-3": {
+        "output": [
+          {
+            "type": "message",
+            "content": [
+              {
+                "type": "output_text",
+                "text": "{\"verdict\": \"flag\", \"evidence\": \"FAKE canned verdict\"}"
+              }
+            ]
+          }
+        ],
+        "usage": {
+          "input_tokens": 10,
+          "output_tokens": 5
+        }
+      },
+      "fake-4": {
+        "output": [
+          {
+            "type": "message",
+            "content": [
+              {
+                "type": "output_text",
+                "text": "{\"verdict\": \"clear\", \"evidence\": \"FAKE canned verdict\"}"
+              }
+            ]
+          }
+        ],
+        "usage": {
+          "input_tokens": 10,
+          "output_tokens": 5
+        }
+      },
+      "fake-5": {
+        "output": [
+          {
+            "type": "message",
+            "content": [
+              {
+                "type": "output_text",
+                "text": "{\"verdict\": \"flag\", \"evidence\": \"FAKE canned verdict\"}"
+              }
+            ]
+          }
+        ],
+        "usage": {
+          "input_tokens": 10,
+          "output_tokens": 5
+        }
+      }
+    },
+    "fake-B": {
+      "fake-1": {
+        "output": [
+          {
+            "type": "message",
+            "content": [
+              {
+                "type": "output_text",
+                "text": "{\"verdict\": \"clear\", \"evidence\": \"FAKE canned verdict\"}"
+              }
+            ]
+          }
+        ],
+        "usage": {
+          "input_tokens": 10,
+          "output_tokens": 5
+        }
+      },
+      "fake-2": {
+        "output": [
+          {
+            "type": "message",
+            "content": [
+              {
+                "type": "output_text",
+                "text": "{\"verdict\": \"flag\", \"evidence\": \"FAKE canned verdict\"}"
+              }
+            ]
+          }
+        ],
+        "usage": {
+          "input_tokens": 10,
+          "output_tokens": 5
+        }
+      },
+      "fake-3": {
+        "output": [
+          {
+            "type": "message",
+            "content": [
+              {
+                "type": "output_text",
+                "text": "{\"verdict\": \"flag\", \"evidence\": \"FAKE canned verdict\"}"
+              }
+            ]
+          }
+        ],
+        "usage": {
+          "input_tokens": 10,
+          "output_tokens": 5
+        }
+      },
+      "fake-4": {
+        "output": [
+          {
+            "type": "message",
+            "content": [
+              {
+                "type": "output_text",
+                "text": "{\"verdict\": \"flag\", \"evidence\": \"FAKE canned verdict\"}"
+              }
+            ]
+          }
+        ],
+        "usage": {
+          "input_tokens": 10,
+          "output_tokens": 5
+        }
+      },
+      "fake-5": {
+        "output": [
+          {
+            "type": "message",
+            "content": [
+              {
+                "type": "output_text",
+                "text": "{\"verdict\": \"flag\", \"evidence\": \"FAKE canned verdict\"}"
+              }
+            ]
+          }
+        ],
+        "usage": {
+          "input_tokens": 10,
+          "output_tokens": 5
+        }
+      }
+    }
+  },
+  "evidence": {
+    "fake-A": {
+      "fake-1": {
+        "output": [
+          {
+            "type": "message",
+            "content": [
+              {
+                "type": "output_text",
+                "text": "{\"verdict\": \"flag\", \"evidence\": \"FAKE canned verdict\"}"
+              }
+            ]
+          }
+        ],
+        "usage": {
+          "input_tokens": 10,
+          "output_tokens": 5
+        }
+      },
+      "fake-2": {
+        "output": [
+          {
+            "type": "message",
+            "content": [
+              {
+                "type": "output_text",
+                "text": "{\"verdict\": \"clear\", \"evidence\": \"FAKE canned verdict\"}"
+              }
+            ]
+          }
+        ],
+        "usage": {
+          "input_tokens": 10,
+          "output_tokens": 5
+        }
+      },
+      "fake-3": {
+        "output": [
+          {
+            "type": "message",
+            "content": [
+              {
+                "type": "output_text",
+                "text": "{\"verdict\": \"flag\", \"evidence\": \"FAKE canned verdict\"}"
+              }
+            ]
+          }
+        ],
+        "usage": {
+          "input_tokens": 10,
+          "output_tokens": 5
+        }
+      },
+      "fake-4": {
+        "output": [
+          {
+            "type": "message",
+            "content": [
+              {
+                "type": "output_text",
+                "text": "{\"verdict\": \"clear\", \"evidence\": \"FAKE canned verdict\"}"
+              }
+            ]
+          }
+        ],
+        "usage": {
+          "input_tokens": 10,
+          "output_tokens": 5
+        }
+      },
+      "fake-5": {
+        "output": [
+          {
+            "type": "message",
+            "content": [
+              {
+                "type": "output_text",
+                "text": "{\"verdict\": \"flag\", \"evidence\": \"FAKE canned verdict\"}"
+              }
+            ]
+          }
+        ],
+        "usage": {
+          "input_tokens": 10,
+          "output_tokens": 5
+        }
+      }
+    },
+    "fake-B": {
+      "fake-1": {
+        "output": [
+          {
+            "type": "message",
+            "content": [
+              {
+                "type": "output_text",
+                "text": "{\"verdict\": \"clear\", \"evidence\": \"FAKE canned verdict\"}"
+              }
+            ]
+          }
+        ],
+        "usage": {
+          "input_tokens": 10,
+          "output_tokens": 5
+        }
+      },
+      "fake-2": {
+        "output": [
+          {
+            "type": "message",
+            "content": [
+              {
+                "type": "output_text",
+                "text": "{\"verdict\": \"flag\", \"evidence\": \"FAKE canned verdict\"}"
+              }
+            ]
+          }
+        ],
+        "usage": {
+          "input_tokens": 10,
+          "output_tokens": 5
+        }
+      },
+      "fake-3": {
+        "output": [
+          {
+            "type": "message",
+            "content": [
+              {
+                "type": "output_text",
+                "text": "{\"verdict\": \"flag\", \"evidence\": \"FAKE canned verdict\"}"
+              }
+            ]
+          }
+        ],
+        "usage": {
+          "input_tokens": 10,
+          "output_tokens": 5
+        }
+      },
+      "fake-4": {
+        "output": [
+          {
+            "type": "message",
+            "content": [
+              {
+                "type": "output_text",
+                "text": "{\"verdict\": \"flag\", \"evidence\": \"FAKE canned verdict\"}"
+              }
+            ]
+          }
+        ],
+        "usage": {
+          "input_tokens": 10,
+          "output_tokens": 5
+        }
+      },
+      "fake-5": {
+        "output": [
+          {
+            "type": "message",
+            "content": [
+              {
+                "type": "output_text",
+                "text": "{\"verdict\": \"flag\", \"evidence\": \"FAKE canned verdict\"}"
+              }
+            ]
+          }
+        ],
+        "usage": {
+          "input_tokens": 10,
+          "output_tokens": 5
+        }
+      }
+    }
+  }
+}

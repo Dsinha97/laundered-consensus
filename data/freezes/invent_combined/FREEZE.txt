@@ -1,0 +1,11 @@
+Combined Invent set, frozen 2026-11-07 11:57:36 UTC (build time from MANIFEST.json).
+
+invent_combined_train.jsonl  419 rows  sha256 06756a5aa82d1df8f0afae6ac02df0e5355d2c66cc46769f6dee8779783bd7a6
+invent_combined_test.jsonl   156 rows  sha256 14cb931536681ed496723569cdcfdbe943195ccd10351897bc488a147e5f5de2
+
+Built by ../assemble_combined.py (seed 20261107) from rounds v3-v6, keeping only rows whose Codex rule-text label check was OK.
+Test = about one third of each mechanism's first clean batch (v3+v4 for base case types; v5 for traps, trap-present rows only). v6 near-miss rows came after a prompt fix and are training only.
+Near-duplicates: 3 near-copies (5-gram Jaccard >= 0.9) dropped; 7 related rows (> 0.5) moved from test to train so no related pair spans the split.
+Max 5-gram overlap with the earlier Invent held-out set (172 rows): 0.13. That set is separate and was not mixed in.
+17 rows lack chosen or rejected text (has_answers=false): usable for testing, skip them for preference training. 2 rows have loaded rejected wording (rejected_loaded=true).
+No watchdog and no training run had seen either file at freeze time.

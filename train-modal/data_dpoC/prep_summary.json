@@ -1,0 +1,10 @@
+{
+  "rows": 2807,
+  "train": 2674,
+  "dev": 133,
+  "train_sha256": "217d73c4132fc34bb5eafe77ea9729714d3e31014726409c990ab820a4e4d74d",
+  "plain_prompt_sha256": "bdc71741bc9308cf7f15dc97a70e15cc20be53fa6c440357c4f6d9397b3a9f98",
+  "parse_py_sha256": "2273658687545812a38e142fc73242083c58744cd4a48c61b944bed3af77aa66",
+  "seed": 0,
+  "dev_fraction": 0.05
+}

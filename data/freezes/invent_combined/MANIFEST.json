@@ -1,0 +1,91 @@
+{
+  "built_utc": "2026-11-07 11:57:36 UTC",
+  "seed": 20261107,
+  "counts": {
+    "train": 419,
+    "test": 156
+  },
+  "near_copies_dropped": [
+    [
+      "inv-0017",
+      "inv-0005",
+      0.96
+    ],
+    [
+      "inv-0035",
+      "inv-0011",
+      0.9
+    ],
+    [
+      "inv-0014",
+      "inv-0013",
+      0.94
+    ]
+  ],
+  "related_rows_moved_test_to_train": [
+    [
+      "inv-0138",
+      0.51
+    ],
+    [
+      "inv-0110",
+      0.51
+    ],
+    [
+      "inv-0196",
+      0.6
+    ],
+    [
+      "inv-0285",
+      0.6
+    ],
+    [
+      "inv-0307",
+      0.58
+    ],
+    [
+      "inv-0294",
+      0.61
+    ],
+    [
+      "inv-0313",
+      0.64
+    ]
+  ],
+  "rows_missing_chosen_or_rejected_text": 17,
+  "rows_with_loaded_rejected_wording": 2,
+  "clear_flag": {
+    "train": [
+      182,
+      237
+    ],
+    "test": [
+      83,
+      73
+    ]
+  },
+  "by_split_mechanism_gold": {
+    "test|benign_clear|clear": 12,
+    "test|benign_flag|flag": 13,
+    "test|boundary|clear": 7,
+    "test|decoy|clear": 8,
+    "test|format|clear": 9,
+    "test|laundered|flag": 48,
+    "test|near_miss|flag": 12,
+    "test|reverse|clear": 8,
+    "test|supported|clear": 39,
+    "train|benign_clear|clear": 25,
+    "train|benign_flag|flag": 25,
+    "train|boundary|clear": 13,
+    "train|decoy|clear": 16,
+    "train|format|clear": 18,
+    "train|laundered|flag": 101,
+    "train|near_miss|flag": 111,
+    "train|reverse|clear": 15,
+    "train|supported|clear": 95
+  },
+  "sha256": {
+    "train": "06756a5aa82d1df8f0afae6ac02df0e5355d2c66cc46769f6dee8779783bd7a6",
+    "test": "14cb931536681ed496723569cdcfdbe943195ccd10351897bc488a147e5f5de2"
+  }
+}

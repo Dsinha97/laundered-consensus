@@ -1,0 +1,18 @@
+id,status,reason
+heldout-00001-0,ambiguous,Codex AMBIGUOUS; Prashanth CLEAR
+heldout-00002-0,ambiguous,readers disagree: Codex MISLABEL-STATED; Prashanth CLEAR
+heldout-00006-0,ambiguous,readers disagree: Codex MISLABEL-STATED; Prashanth CLEAR
+heldout-00016-0,ambiguous,readers disagree: Codex CLEAR; Prashanth FLAG
+heldout-00017-0,ambiguous,readers disagree: Codex MISLABEL-STATED; Prashanth CLEAR
+heldout-00028-0,ambiguous,Codex MISLABEL-STATED; Prashanth AMBIGUOUS
+heldout-00031-0,ambiguous,Codex AMBIGUOUS; Prashanth FLAG
+heldout-00036-0,ambiguous,readers disagree: Codex MISLABEL-STATED; Prashanth CLEAR
+heldout-00041-0,ambiguous,Codex AMBIGUOUS; Prashanth FLAG
+heldout-00048-0,ambiguous,readers disagree: Codex CLEAR; Prashanth FLAG
+heldout-00055-0,mislabel,both readers: record fails a stated requirement
+heldout-00064-0,ambiguous,Codex AMBIGUOUS; Prashanth FLAG
+heldout-00072-0,mislabel,both readers: record fails a stated requirement
+heldout-00074-0,ambiguous,readers disagree: Codex MISLABEL-STATED; Prashanth CLEAR
+heldout-00076-0,ambiguous,readers disagree: Codex MISLABEL-STATED; Prashanth CLEAR
+heldout-00077-0,ambiguous,Codex AMBIGUOUS; Prashanth CLEAR
+heldout-00091-0,ambiguous,readers disagree: Codex MISLABEL-STATED; Prashanth CLEAR

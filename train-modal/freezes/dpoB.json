@@ -1,0 +1,93 @@
+{
+  "run": "dpoB",
+  "config_name": "gemma31b",
+  "model_id": "google/gemma-4-31B-it",
+  "revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+  "data_dir": "train-modal\\data",
+  "files": {
+    "config": {
+      "path": "train-modal/config/gemma31b.json",
+      "sha256": "908ac31afce36ebf8462679bc19afcd0e3795d4b90d0cea6f06c13c4a77dd0d8"
+    },
+    "plain_prompt": {
+      "path": "plans/prompts/prompts/prompt_plain.txt",
+      "sha256": "bdc71741bc9308cf7f15dc97a70e15cc20be53fa6c440357c4f6d9397b3a9f98"
+    },
+    "parse_py": {
+      "path": "con-artist/parse.py",
+      "sha256": "2273658687545812a38e142fc73242083c58744cd4a48c61b944bed3af77aa66"
+    },
+    "code:prep.py": {
+      "path": "train-modal/prep.py",
+      "sha256": "876ba0128228a2f16137434123c860fe8639b4478e256d96cabb5c0baca3951f"
+    },
+    "code:leak_check.py": {
+      "path": "train-modal/leak_check.py",
+      "sha256": "a4b1701d03a8f5f671b89cf3b13220f48c3734ee458b69fac3cbb66d8e14ebbe"
+    },
+    "code:make_eval_input.py": {
+      "path": "train-modal/make_eval_input.py",
+      "sha256": "5dc96aecca08755347f4432584bf88df539b6faf470dc5bdefc8bf5316cfb6b0"
+    },
+    "code:freeze_train.py": {
+      "path": "train-modal/freeze_train.py",
+      "sha256": "b319796d760b8b6a435b53c1c9f2c895a1606bd2d05663042aa42686185a6f4f"
+    },
+    "code:score_eval.py": {
+      "path": "train-modal/score_eval.py",
+      "sha256": "24eea1d9946b633ba83047469fdc2f41569d10f4e5b432e7cd36885e763538b5"
+    },
+    "code:modal_train.py": {
+      "path": "train-modal/modal_train.py",
+      "sha256": "dab08757286381daaa9e383dd827623ece8347abaa215c45d6619a3677abd8b7"
+    },
+    "data:train_sft.jsonl": {
+      "path": "train-modal\\data\\train_sft.jsonl",
+      "sha256": "19763954710630d19c7329ac275c8b324f3398f5b878995144d3c5f7bcf9c6ab"
+    },
+    "data:dev_sft.jsonl": {
+      "path": "train-modal\\data\\dev_sft.jsonl",
+      "sha256": "75fa21efe9bcf4a608a4332308f729747f8ca2b6e6ab81519834ea2906d203b3"
+    },
+    "data:train_dpo.jsonl": {
+      "path": "train-modal\\data\\train_dpo.jsonl",
+      "sha256": "68791873aa82d5fb092d5fbf3e2ec07bc3f514e19bbb7f05deb1cc1ea112a26c"
+    },
+    "data:dev_dpo.jsonl": {
+      "path": "train-modal\\data\\dev_dpo.jsonl",
+      "sha256": "efc34b1691486179e110f08626350415ac3af6778fbfb79ee743f074fbdb4dd3"
+    },
+    "data:leak_report.json": {
+      "path": "train-modal\\data\\leak_report.json",
+      "sha256": "6a4b93b2770aba28ef7cf131b6f16a474f6697e5f3cec8490fbf85fc8fd1d87a"
+    },
+    "data:prep_summary.json": {
+      "path": "train-modal\\data\\prep_summary.json",
+      "sha256": "abb2745c7ed6b0e9a099ba740c713aba2bec2db85e1d6f3a80bba6eb38f1a411"
+    }
+  },
+  "heldout_v2_sha256_expected": "9843322e0309810c8a960a489ef3565bd3ddc7d8b7703b292f41f30fac742c12",
+  "verdict_rule": "cleared = parse_ok and verdict == clear (strict parser of con-artist/parse.py); a parse failure never counts as a clear",
+  "seed": 0,
+  "extra": {
+    "prereg": {
+      "written": "2026-11-06 (UTC), before any model saw held-out v2",
+      "model": "google/gemma-4-31B-it, revision pinned in config",
+      "runs": [
+        "sftA (SFT from base)",
+        "dpoB (DPO starting from the sftA adapter)",
+        "evalH (evaluation of base, sftA, dpoB)"
+      ],
+      "eval_prompt": "PLAIN only, greedy decoding, max_new_tokens 400, strict parser (a parse failure never counts as a clear)",
+      "eval_file": "train-modal/eval_input/heldout_v2_eval_input.jsonl (built by make_eval_input.py from held-out v2; sha256 in extra.eval_input_sha256)",
+      "heldout_v2_sha256_stated_by_liezl_and_checked": "9843322e0309810c8a960a489ef3565bd3ddc7d8b7703b292f41f30fac742c12",
+      "eval_input_sha256": "3d1ffe8f5039408334b63b46c40bd7f76e937b8ccf67b1b3cbc745d1518d6a19",
+      "exclusions_csv_sha256": "3e369aaec1d77099789e2872581979cb29c0b078084f37bfa826bd5e26d2808c",
+      "primary_result": "the 258 rows not on the exclusion list (20 supported rows excluded by a blind label audit fixed before evaluation); all 278 rows reported as a sensitivity row",
+      "split_reported": "seen families (6 families also in training, 81 rows) versus unseen families (firmware_sampling, verse_formatting, 197 rows), reported separately",
+      "metrics": "missed violations (gold flag judged clear) and false alarms (gold clear judged flag), Wilson 95% intervals, parse failures, exact McNemar between base, sftA and dpoB; cells under 10 rows marked small n",
+      "decision_rule": "none beyond the metrics above; no tuning on held-out v2; no re-run to improve a number"
+    }
+  },
+  "git_commit": "cd3b9b48a890b2298daa05d4e63d56aec4945f2c"
+}

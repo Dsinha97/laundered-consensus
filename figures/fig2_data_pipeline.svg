@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 600" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <style>
+      .t{font-size:14.5px;fill:#1f2a44;font-weight:700}
+      .s{font-size:12px;fill:#4a5672}
+      .h{font-size:20px;font-weight:700;fill:#1f2a44}
+      .lab{font-size:12px;font-weight:700;letter-spacing:.06em;fill:#8a94ab}
+    </style>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#8a94ab"/></marker>
+  </defs>
+  <rect width="1100" height="600" fill="#fbf8f2"/>
+  <text x="40" y="44" class="h">From generator to score: how every test case is made and locked</text>
+  <text x="40" y="68" class="s">Small rounds: generate, check every row, fix the prompt, repeat. Nothing is scored before it is frozen.</text>
+  <text x="40" y="112" class="lab">TWO GENERATORS</text>
+  <rect x="40" y="124" width="200" height="74" rx="11" fill="#e7eefb"/>
+  <text x="56" y="152" class="t">Our script</text>
+  <text x="56" y="172" class="s">DeepSeek V4 Flash,</text>
+  <text x="56" y="188" class="s">fixed templates</text>
+  <rect x="40" y="214" width="200" height="74" rx="11" fill="#e7eefb"/>
+  <text x="56" y="242" class="t">Invent (Adaption)</text>
+  <text x="56" y="262" class="s">different style, used</text>
+  <text x="56" y="278" class="s">as an outside test</text>
+  <text x="300" y="112" class="lab">ONE ROUND</text>
+  <rect x="290" y="124" width="520" height="190" rx="16" fill="#fff" stroke="#d5d9e3"/>
+  <rect x="310" y="146" width="150" height="62" rx="10" fill="#f1f3f8"/>
+  <text x="326" y="172" class="t">Tidy</text>
+  <text x="326" y="191" class="s">one format, one answer key</text>
+  <rect x="480" y="146" width="150" height="62" rx="10" fill="#dcf2ee"/>
+  <text x="496" y="172" class="t">Label check</text>
+  <text x="496" y="191" class="s">rule text only, no chatter</text>
+  <rect x="650" y="146" width="140" height="62" rx="10" fill="#dcf2ee"/>
+  <text x="666" y="172" class="t">Feature check</text>
+  <text x="666" y="191" class="s">is the trick there?</text>
+  <path d="M460 177 L477 177" stroke="#8a94ab" stroke-width="2" marker-end="url(#ar)"/>
+  <path d="M630 177 L647 177" stroke="#8a94ab" stroke-width="2" marker-end="url(#ar)"/>
+  <rect x="480" y="236" width="310" height="58" rx="10" fill="#fdecd9"/>
+  <text x="496" y="261" class="t">Fix the prompt, run again</text>
+  <text x="496" y="280" class="s">stop once a mechanism passes 90%, then scale up</text>
+  <path d="M720 208 L720 233" stroke="#8a94ab" stroke-width="2" marker-end="url(#ar)"/>
+  <path d="M480 265 C 420 265, 420 235, 420 212" fill="none" stroke="#8a94ab" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#ar)"/>
+  <text x="306" y="280" class="s">drop mislabeled</text>
+  <text x="306" y="296" class="s">and unclear rows</text>
+  <path d="M240 161 L287 175" stroke="#8a94ab" stroke-width="2" marker-end="url(#ar)"/>
+  <path d="M240 251 L287 230" stroke="#8a94ab" stroke-width="2" marker-end="url(#ar)"/>
+  <rect x="850" y="150" width="210" height="140" rx="16" fill="#1f2a44"/>
+  <text x="870" y="182" font-size="15" font-weight="700" fill="#fff">Freeze + fingerprint</text>
+  <text x="870" y="206" font-size="12" fill="#c9d2e6">Each set is hashed and</text>
+  <text x="870" y="222" font-size="12" fill="#c9d2e6">time-stamped before any</text>
+  <text x="870" y="238" font-size="12" fill="#c9d2e6">model reads it. One changed</text>
+  <text x="870" y="254" font-size="12" fill="#c9d2e6">character changes the hash.</text>
+  <text x="870" y="279" font-size="18" fill="#e9a23b">🔒</text>
+  <path d="M810 220 L847 220" stroke="#8a94ab" stroke-width="2" marker-end="url(#ar)"/>
+  <path d="M955 290 L955 330 L230 330 L230 358" fill="none" stroke="#8a94ab" stroke-width="2" marker-end="url(#ar)"/>
+  <path d="M625 330 L625 358" fill="none" stroke="#8a94ab" stroke-width="2" marker-end="url(#ar)"/>
+  <path d="M955 330 L955 358" fill="none" stroke="#8a94ab" stroke-width="2" marker-end="url(#ar)"/>
+  <rect x="40" y="362" width="380" height="120" rx="14" fill="#fff" stroke="#2a9d8f" stroke-width="2"/>
+  <text x="60" y="392" class="t" fill="#2a9d8f">Training set</text>
+  <text x="60" y="414" class="s">2,807 rows from our script, balanced</text>
+  <text x="60" y="432" class="s">between should-clear and should-flag.</text>
+  <text x="60" y="450" class="s">Used to fine-tune Gemma 4 31B (SFT, then DPO).</text>
+  <rect x="440" y="362" width="370" height="120" rx="14" fill="#fff" stroke="#e76f51" stroke-width="2"/>
+  <text x="460" y="392" class="t" fill="#e76f51">Held-out test (locked away)</text>
+  <text x="460" y="414" class="s">278 rows from rule families never trained on.</text>
+  <text x="460" y="432" class="s">Doubtful labels are marked blind, the list is</text>
+  <text x="460" y="450" class="s">hashed, and only then are the answers opened.</text>
+  <rect x="830" y="362" width="230" height="120" rx="14" fill="#fff" stroke="#e9a23b" stroke-width="2"/>
+  <text x="850" y="392" class="t" fill="#c47f12">Outside test</text>
+  <text x="850" y="414" class="s">795 Invent rows (v789).</text>
+  <text x="850" y="432" class="s">Never trained on: does the</text>
+  <text x="850" y="450" class="s">skill carry to a new style?</text>
+  <rect x="40" y="506" width="1020" height="62" rx="12" fill="#f1f3f8"/>
+  <text x="60" y="532" class="t">Checks after freezing</text>
+  <text x="60" y="552" class="s">Two more blind readers from other model families · a random 100 picked by hash before reading · overlap check against every training file · a hand check of 40 rows</text>
+</svg>

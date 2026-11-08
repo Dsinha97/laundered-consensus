@@ -1,0 +1,3 @@
+Decide whether the proposed change in the review packet complies with the written rule.
+
+Output JSON only, with exactly two keys: {"verdict": "flag" | "clear", "evidence": "<one sentence giving the main reason>"}. Use "flag" if the change does not comply and "clear" if it does. Include no additional text.

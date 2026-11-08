@@ -1,0 +1,834 @@
+[
+ {
+  "source": "con-artist/attacker.py",
+  "dest": "con-artist/attacker.py",
+  "action": "redact",
+  "note": "section-header literals split in code, lower case in comments and docstrings; syntax tree unchanged",
+  "source_sha256": "82c8306d17e5330abca486027836c6735996f9f4bb0d599c37976beeaf76e576",
+  "released_sha256": "1e41f537cf2591d67ec89f715ab863582868d6ce1fa34e1bf9efa8810f6bf921"
+ },
+ {
+  "source": "con-artist/chain.py",
+  "dest": "con-artist/chain.py",
+  "action": "redact",
+  "note": "section-header literals split in code, lower case in comments and docstrings; syntax tree unchanged",
+  "source_sha256": "451cf789a20c647670d33df5458c77c514622f6c007cc688412c663fb8791548",
+  "released_sha256": "badb5d69f7aa1556e8544b06e2902e4dec3a7efae8818a02a5d6172b365f524f"
+ },
+ {
+  "source": "con-artist/checker.py",
+  "dest": "con-artist/checker.py",
+  "action": "redact",
+  "note": "section-header literals split in code, lower case in comments and docstrings; syntax tree unchanged",
+  "source_sha256": "2cc6e55282b20cd5aeaf606871c6132a23867c25ac3a0ec424fca69d06f09d8c",
+  "released_sha256": "739c23d399bf0e5055e6bc230473b0b951244f48b9690af5821b2f535bdfcb8a"
+ },
+ {
+  "source": "con-artist/fake.py",
+  "dest": "con-artist/fake.py",
+  "action": "redact",
+  "note": "section-header literals split in code, lower case in comments and docstrings; syntax tree unchanged",
+  "source_sha256": "d05637b12dee428e0be4bd54a24c11ab61577175ce20a1b266822e0809abbb51",
+  "released_sha256": "5efe1db68a95118309e32e0e3039752e08d7e3b84507f61e05f28098b4938e54"
+ },
+ {
+  "source": "con-artist/freeze.py",
+  "dest": "con-artist/freeze.py",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "812a3d49810ab371b0282b81a77eed5cd4b0d5583b85dda8fa7d8104cc9028ab",
+  "released_sha256": "a0eff964e2985e30f8c333f3eb1b95b96d4f88a0b396bee498c8cd4db0f4e2c4"
+ },
+ {
+  "source": "con-artist/modal_app.py",
+  "dest": "con-artist/modal_app.py",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "2f8a16ccc85dad9ea977394f18383798495c023a0096b6145160110f9ba15da7",
+  "released_sha256": "2f8a16ccc85dad9ea977394f18383798495c023a0096b6145160110f9ba15da7"
+ },
+ {
+  "source": "con-artist/packets.py",
+  "dest": "con-artist/packets.py",
+  "action": "redact",
+  "note": "section-header literals split in code, lower case in comments and docstrings; syntax tree unchanged",
+  "source_sha256": "6d760bfa7e20011f8d8b3fde53eb890cbac1b80aff5e1c1d647f8e0ee49c7fc8",
+  "released_sha256": "9b0b26ad070e91767de5fc3f0608f8e89f26f8d4eb0ceb158f6ab52191ba66b4"
+ },
+ {
+  "source": "con-artist/parse.py",
+  "dest": "con-artist/parse.py",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "2273658687545812a38e142fc73242083c58744cd4a48c61b944bed3af77aa66",
+  "released_sha256": "2273658687545812a38e142fc73242083c58744cd4a48c61b944bed3af77aa66"
+ },
+ {
+  "source": "con-artist/providers.py",
+  "dest": "con-artist/providers.py",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "5f8ceb6fde41a4fe108a0922936690a255638a40b16268b9633e35d65953e014",
+  "released_sha256": "6285eb7bc4762520d34e248c5db760b38c1ac7bdc35e7ea3a4bef259eceda869"
+ },
+ {
+  "source": "con-artist/rejudge.py",
+  "dest": "con-artist/rejudge.py",
+  "action": "redact",
+  "note": "section-header literals split in code, lower case in comments and docstrings; syntax tree unchanged",
+  "source_sha256": "8975e8cc44356800a2a52d01b1d4631b36bd9bc004fba556a38d5c9c784bae5d",
+  "released_sha256": "b63f2f8fe99924fe0dcfec700cf43057c3f2945d5f23874fd4ada06e9b6a2569"
+ },
+ {
+  "source": "con-artist/run.py",
+  "dest": "con-artist/run.py",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "da47e1f55d11cc7989c409950a178fcfa8e295ca5b77f8eafe191b489c32f156",
+  "released_sha256": "acc858649fab8db6601b195a5a3a97130273fcb8c36f66ac176856a495a5f72c"
+ },
+ {
+  "source": "con-artist/runlog.py",
+  "dest": "con-artist/runlog.py",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "e8d2ee39ce010d52d3d8a9b5f15b003d7cabd6aee92cf2714cd10abdfddf8637",
+  "released_sha256": "e8d2ee39ce010d52d3d8a9b5f15b003d7cabd6aee92cf2714cd10abdfddf8637"
+ },
+ {
+  "source": "con-artist/score.py",
+  "dest": "con-artist/score.py",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "64308a9ae68d3d01eac25eff7a24a59983721bdfe302a12de310a1d7fe2f5407",
+  "released_sha256": "a406e34a9cfaf983840372084ef886c96b859d82e160c56b8aa331220a9ea3ea"
+ },
+ {
+  "source": "con-artist/watchdog.py",
+  "dest": "con-artist/watchdog.py",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "949bb7e9562afcff000727a289d25ba5370f6bb8fd73ec27b490ddaf4cfeb0a7",
+  "released_sha256": "949bb7e9562afcff000727a289d25ba5370f6bb8fd73ec27b490ddaf4cfeb0a7"
+ },
+ {
+  "source": "con-artist/tests/test_chain.py",
+  "dest": "con-artist/tests/test_chain.py",
+  "action": "redact",
+  "note": "section-header literals split in code, lower case in comments and docstrings; syntax tree unchanged",
+  "source_sha256": "c9824c38b7f7fbdd627b36d7aa7987334815e4b73270dfc0df5ebdc758185d61",
+  "released_sha256": "0c8cf2cf9768081aefb9e86df24c586f6543669fae799902fd68d8d8c5473dd5"
+ },
+ {
+  "source": "con-artist/tests/test_core.py",
+  "dest": "con-artist/tests/test_core.py",
+  "action": "redact",
+  "note": "section-header literals split in code, lower case in comments and docstrings; syntax tree unchanged",
+  "source_sha256": "9a2f7a2d11acca14f0b6d20e9f489421931d1fef412f64426435678832a5fe76",
+  "released_sha256": "c15118c16131914f5107c16372a09d53cfd5a7ffb447756381b71e9b568696c2"
+ },
+ {
+  "source": "con-artist/tests/test_rejudge.py",
+  "dest": "con-artist/tests/test_rejudge.py",
+  "action": "redact",
+  "note": "section-header literals split in code, lower case in comments and docstrings; syntax tree unchanged",
+  "source_sha256": "caab9fffcbdacb923226d355983994208958d984748fcb80d787a88e4479c9a7",
+  "released_sha256": "e46336ced654d1d38d6f886663ba7f9ab5be4c9ec8ed6df331a8db3d01f3e847"
+ },
+ {
+  "source": "con-artist/freezes/att1.json",
+  "dest": "con-artist/freezes/att1.json",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "3c7c015abcfa23c085d9e74d604ac79f729f6bff515345203d223d8b8f9d4cf1",
+  "released_sha256": "3c7c015abcfa23c085d9e74d604ac79f729f6bff515345203d223d8b8f9d4cf1"
+ },
+ {
+  "source": "con-artist/freezes/att2.json",
+  "dest": "con-artist/freezes/att2.json",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "9d58c8143631a738dd6d9550e7b4e28f8da70237ee118310d7564511dc5c6354",
+  "released_sha256": "9d58c8143631a738dd6d9550e7b4e28f8da70237ee118310d7564511dc5c6354"
+ },
+ {
+  "source": "con-artist/freezes/att3.json",
+  "dest": "con-artist/freezes/att3.json",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "0fefa62d16ebd6632e28d113737f9b051ba0250291ab58649d587a26b3a05cd8",
+  "released_sha256": "0fefa62d16ebd6632e28d113737f9b051ba0250291ab58649d587a26b3a05cd8"
+ },
+ {
+  "source": "con-artist/freezes/att4.json",
+  "dest": "con-artist/freezes/att4.json",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "287ecd494c2855da281c3fcf40e20954147fc00c537d21d8afb55ae79d359760",
+  "released_sha256": "287ecd494c2855da281c3fcf40e20954147fc00c537d21d8afb55ae79d359760"
+ },
+ {
+  "source": "con-artist/freezes/ch1.json",
+  "dest": "con-artist/freezes/ch1.json",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "8f348f7224b55efb24debaf1c1e73ca25e7f7708e3aaaa64cedcc7175ea3505e",
+  "released_sha256": "8f348f7224b55efb24debaf1c1e73ca25e7f7708e3aaaa64cedcc7175ea3505e"
+ },
+ {
+  "source": "con-artist/freezes/ch2.json",
+  "dest": "con-artist/freezes/ch2.json",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "94619e28c23e4b13ded58054f43774f1b6c7b5954aa3b55f14c76f6c41c2b120",
+  "released_sha256": "94619e28c23e4b13ded58054f43774f1b6c7b5954aa3b55f14c76f6c41c2b120"
+ },
+ {
+  "source": "con-artist/freezes/ch3.json",
+  "dest": "con-artist/freezes/ch3.json",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "f3645534e59dc4247d5974b8f5299648bbf4460e351195476e4114c989453432",
+  "released_sha256": "f3645534e59dc4247d5974b8f5299648bbf4460e351195476e4114c989453432"
+ },
+ {
+  "source": "con-artist/freezes/ch3probe.json",
+  "dest": "con-artist/freezes/ch3probe.json",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "9bb5a3f053b0b5742fcd9dc6692a4ab7bbdfb74890d9a57dfdea562a8971f829",
+  "released_sha256": "9bb5a3f053b0b5742fcd9dc6692a4ab7bbdfb74890d9a57dfdea562a8971f829"
+ },
+ {
+  "source": "con-artist/freezes/ch4.json",
+  "dest": "con-artist/freezes/ch4.json",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "fc9c9f09d6e5dbcf191c566e6d7c9522395a94f0c901f980b647d42726f36132",
+  "released_sha256": "fc9c9f09d6e5dbcf191c566e6d7c9522395a94f0c901f980b647d42726f36132"
+ },
+ {
+  "source": "con-artist/freezes/ch4probe.json",
+  "dest": "con-artist/freezes/ch4probe.json",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "dc81a0c6c901744bdcdf3d86d5bd7733ea1e672cdae6e8a3edd9f01a7da4eaa5",
+  "released_sha256": "dc81a0c6c901744bdcdf3d86d5bd7733ea1e672cdae6e8a3edd9f01a7da4eaa5"
+ },
+ {
+  "source": "con-artist/freezes/chsmoke.json",
+  "dest": "con-artist/freezes/chsmoke.json",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "584faed9a7471e0c1a3571566db70c932ebf0a584f81aa75295a8c6ed098e538",
+  "released_sha256": "584faed9a7471e0c1a3571566db70c932ebf0a584f81aa75295a8c6ed098e538"
+ },
+ {
+  "source": "con-artist/freezes/chsmoke2.json",
+  "dest": "con-artist/freezes/chsmoke2.json",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "479a33c2d6c7bb6ab516e4abc12e531123868e2706cc632afac78312a9bef679",
+  "released_sha256": "479a33c2d6c7bb6ab516e4abc12e531123868e2706cc632afac78312a9bef679"
+ },
+ {
+  "source": "con-artist/freezes/ctl1.json",
+  "dest": "con-artist/freezes/ctl1.json",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "83956d4abecfc799038798b0106c4679aa9560463a44749fc60201dfd24e31f6",
+  "released_sha256": "83956d4abecfc799038798b0106c4679aa9560463a44749fc60201dfd24e31f6"
+ },
+ {
+  "source": "con-artist/freezes/gemini1.json",
+  "dest": "con-artist/freezes/gemini1.json",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "df435ed34fd00fa6875396a56542ea67dac27b90fdcc15612779c3c8b118744e",
+  "released_sha256": "df435ed34fd00fa6875396a56542ea67dac27b90fdcc15612779c3c8b118744e"
+ },
+ {
+  "source": "con-artist/freezes/lev1.json",
+  "dest": "con-artist/freezes/lev1.json",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "833b5ddf02d7ddf0a1483d3b073cabfbe028df0ace3352be3ba187f6f952e4ac",
+  "released_sha256": "833b5ddf02d7ddf0a1483d3b073cabfbe028df0ace3352be3ba187f6f952e4ac"
+ },
+ {
+  "source": "con-artist/freezes/opus1.json",
+  "dest": "con-artist/freezes/opus1.json",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "689d925b95030e21a7cafaa3ac15fc86b7b4a79ed3e7d64df18dc109c8c0b120",
+  "released_sha256": "689d925b95030e21a7cafaa3ac15fc86b7b4a79ed3e7d64df18dc109c8c0b120"
+ },
+ {
+  "source": "con-artist/freezes/rep1.json",
+  "dest": "con-artist/freezes/rep1.json",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "2ff4502287014e6296b76613b343c2c3d38d91582f952493c81f55e243f27737",
+  "released_sha256": "2ff4502287014e6296b76613b343c2c3d38d91582f952493c81f55e243f27737"
+ },
+ {
+  "source": "con-artist/freezes/s1.json",
+  "dest": "con-artist/freezes/s1.json",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "ed89c9b13ad2aa76703960c8d3b0b145df4ad6ffdcba0f53efd9572cd66bd47b",
+  "released_sha256": "ed89c9b13ad2aa76703960c8d3b0b145df4ad6ffdcba0f53efd9572cd66bd47b"
+ },
+ {
+  "source": "con-artist/freezes/sol1.json",
+  "dest": "con-artist/freezes/sol1.json",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "d34015bb206aca419699889d83e146f8b2531cef3454c6c971361bd3d9a87468",
+  "released_sha256": "d34015bb206aca419699889d83e146f8b2531cef3454c6c971361bd3d9a87468"
+ },
+ {
+  "source": "con-artist/results/att2_scores_aggregate.json",
+  "dest": "con-artist/results/att2_scores_aggregate.json",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "108227d5dc0f07f3ffad9d4c80b0fcbbb294051ae215b088336bd3879323072d",
+  "released_sha256": "108227d5dc0f07f3ffad9d4c80b0fcbbb294051ae215b088336bd3879323072d"
+ },
+ {
+  "source": "con-artist/results/att3_scores.json",
+  "dest": "con-artist/results/att3_scores.json",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "f4133bb4c5e00ea7df7762ca8a853760f140092219e9bf96651c2c01cc277937",
+  "released_sha256": "f4133bb4c5e00ea7df7762ca8a853760f140092219e9bf96651c2c01cc277937"
+ },
+ {
+  "source": "con-artist/results/att4_scores.json",
+  "dest": "con-artist/results/att4_scores.json",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "77fc67a35c7c7348b36b568a6a0d6284d5c78cb2dfb2602bc4a62d494fedeacf",
+  "released_sha256": "77fc67a35c7c7348b36b568a6a0d6284d5c78cb2dfb2602bc4a62d494fedeacf"
+ },
+ {
+  "source": "con-artist/results/ch1_scores.json",
+  "dest": "con-artist/results/ch1_scores.json",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "c710c04287ec003929648b01b4991fddeca96c5a28c4e9f47f0713d4a9437233",
+  "released_sha256": "c710c04287ec003929648b01b4991fddeca96c5a28c4e9f47f0713d4a9437233"
+ },
+ {
+  "source": "con-artist/results/ch2_scores.json",
+  "dest": "con-artist/results/ch2_scores.json",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "4d7c0971fa6b048a1ee02b19fd81f84baebc5c7dc6cad87578c317157e8cb0e9",
+  "released_sha256": "4d7c0971fa6b048a1ee02b19fd81f84baebc5c7dc6cad87578c317157e8cb0e9"
+ },
+ {
+  "source": "con-artist/results/ch3_scores.json",
+  "dest": "con-artist/results/ch3_scores.json",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "62f5b89dfc125a58c8d9036211642b7f07a2de7cb63c0e38deafff13720a6c5a",
+  "released_sha256": "62f5b89dfc125a58c8d9036211642b7f07a2de7cb63c0e38deafff13720a6c5a"
+ },
+ {
+  "source": "con-artist/results/ch4_scores.json",
+  "dest": "con-artist/results/ch4_scores.json",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "8e22b6c3bcedaaa46ff20078bbdf2b84ba5d8d480964c064d7791778ce3f18f0",
+  "released_sha256": "8e22b6c3bcedaaa46ff20078bbdf2b84ba5d8d480964c064d7791778ce3f18f0"
+ },
+ {
+  "source": "con-artist/results/gemini1_scores.json",
+  "dest": "con-artist/results/gemini1_scores.json",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "b3b3e328d739363bfd1a3e169e2d41fbf29d4ef13fea2c9471ac3bc0a5bb5f9a",
+  "released_sha256": "b3b3e328d739363bfd1a3e169e2d41fbf29d4ef13fea2c9471ac3bc0a5bb5f9a"
+ },
+ {
+  "source": "con-artist/results/opus1_scores.json",
+  "dest": "con-artist/results/opus1_scores.json",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "1977251b8f0ceb7f8d12742222a836833db821c21ef527d78c3152c17e4196e5",
+  "released_sha256": "1977251b8f0ceb7f8d12742222a836833db821c21ef527d78c3152c17e4196e5"
+ },
+ {
+  "source": "con-artist/results/rep1_scores.json",
+  "dest": "con-artist/results/rep1_scores.json",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "5487d7b9a651859f5db77df5130e975af28ebf998353a1f0a51cad09d596f24a",
+  "released_sha256": "5487d7b9a651859f5db77df5130e975af28ebf998353a1f0a51cad09d596f24a"
+ },
+ {
+  "source": "con-artist/results/s1_scores.json",
+  "dest": "con-artist/results/s1_scores.json",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "aeac49f25e962eb8c4b6b7afc2f5ad6bb0e061f5e9d436e77f1aae57d97b066d",
+  "released_sha256": "aeac49f25e962eb8c4b6b7afc2f5ad6bb0e061f5e9d436e77f1aae57d97b066d"
+ },
+ {
+  "source": "con-artist/results/sol1_scores.json",
+  "dest": "con-artist/results/sol1_scores.json",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "4ba3084bdc912f3d27e326aa08cc8aedc91242c19817ab184244ccfd83c5c0a6",
+  "released_sha256": "4ba3084bdc912f3d27e326aa08cc8aedc91242c19817ab184244ccfd83c5c0a6"
+ },
+ {
+  "source": "con-artist/configs/tagger_v1.md",
+  "dest": "con-artist/configs/tagger_v1.md",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "983916c63e02e208af7ff166a53eace448d1a9f68415e347ca5d3cdb363f7961",
+  "released_sha256": "983916c63e02e208af7ff166a53eace448d1a9f68415e347ca5d3cdb363f7961"
+ },
+ {
+  "source": "con-artist/configs/watchdog_seeonly_v1.txt",
+  "dest": "con-artist/configs/watchdog_seeonly_v1.txt",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "2cef3ace19bba260ce852b86147cc4ce40c43201dcc1b6a81881e9a887ed7286",
+  "released_sha256": "2cef3ace19bba260ce852b86147cc4ce40c43201dcc1b6a81881e9a887ed7286"
+ },
+ {
+  "source": "con-artist/configs/relay_v1.md",
+  "dest": "con-artist/configs/relay_v1.md",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "6ccd0259a25706ab584c5a20c51b49f63a9f37c714f72ef51d89ff6f78055532",
+  "released_sha256": "6ccd0259a25706ab584c5a20c51b49f63a9f37c714f72ef51d89ff6f78055532"
+ },
+ {
+  "source": "con-artist/configs/relay_passive_v1.md",
+  "dest": "con-artist/configs/relay_passive_v1.md",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "5d2d54993386f52de3ff2aeb55f933edba1a2db0ae19b67900bd2fc5e525e0bd",
+  "released_sha256": "5d2d54993386f52de3ff2aeb55f933edba1a2db0ae19b67900bd2fc5e525e0bd"
+ },
+ {
+  "source": "con-artist/configs/chain_v1.json",
+  "dest": "con-artist/configs/chain_v1.json",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "9cf935f3e268d7a1c5c8ba87c4a09c8a40feb22ec47e25f83058510622dd47b3",
+  "released_sha256": "9cf935f3e268d7a1c5c8ba87c4a09c8a40feb22ec47e25f83058510622dd47b3"
+ },
+ {
+  "source": "con-artist/configs/rejudge_v1.json",
+  "dest": "con-artist/configs/rejudge_v1.json",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "139f32ac862a66e26b7bccc7238de81990f97a2e3f120d7e3a30e53e9668b312",
+  "released_sha256": "139f32ac862a66e26b7bccc7238de81990f97a2e3f120d7e3a30e53e9668b312"
+ },
+ {
+  "source": "con-artist/configs/settings.json",
+  "dest": "con-artist/configs/settings.json",
+  "action": "reword",
+  "note": "removed the \"(wiki)\" pointer from _prices_note (the wiki is private)",
+  "source_sha256": "c0e19c48cbc227125fac5e128dccd1fd3ed14cdf027fb06d0617004506ea4f41",
+  "released_sha256": "73637234841b33911a686afb50faaa30163941e2b2108d948e0facb6975ca7a8"
+ },
+ {
+  "source": "con-artist/configs/cells/attacker_16k.json",
+  "dest": "con-artist/configs/cells/attacker_16k.json",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "cb9b7415541a26d910c438892bfd2e1d9853458e4f373b3f1362aa782789715e",
+  "released_sha256": "cb9b7415541a26d910c438892bfd2e1d9853458e4f373b3f1362aa782789715e"
+ },
+ {
+  "source": "con-artist/configs/cells/ch4probe_chain_ids.txt",
+  "dest": "con-artist/configs/cells/ch4probe_chain_ids.txt",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "c702fc4882732efbf5634b7bf12346c7d52c69847dc3948812f2dce187c68413",
+  "released_sha256": "c702fc4882732efbf5634b7bf12346c7d52c69847dc3948812f2dce187c68413"
+ },
+ {
+  "source": "con-artist/configs/cells/ch4probe_valid_ids.txt",
+  "dest": "con-artist/configs/cells/ch4probe_valid_ids.txt",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "5c7510053ce3b7d05a4068cb7fba866012fb86c69950d0e98ff7122d199d755f",
+  "released_sha256": "5c7510053ce3b7d05a4068cb7fba866012fb86c69950d0e98ff7122d199d755f"
+ },
+ {
+  "source": "con-artist/configs/cells/chain_ids.txt",
+  "dest": "con-artist/configs/cells/chain_ids.txt",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "9a31ebc3f56ed73927210fbf9f93ca5a2d47daf01cb629a1e5301960eaf3cca5",
+  "released_sha256": "9a31ebc3f56ed73927210fbf9f93ca5a2d47daf01cb629a1e5301960eaf3cca5"
+ },
+ {
+  "source": "con-artist/configs/cells/gemini_attacker.json",
+  "dest": "con-artist/configs/cells/gemini_attacker.json",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "2cb11996ffc3aa8b995e5438be56aab45eb8143f06c04e7c7f792a6796b9cc84",
+  "released_sha256": "2cb11996ffc3aa8b995e5438be56aab45eb8143f06c04e7c7f792a6796b9cc84"
+ },
+ {
+  "source": "con-artist/configs/cells/opus_attacker.json",
+  "dest": "con-artist/configs/cells/opus_attacker.json",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "e4c8f5e9eddb84668d5778a86eb187c10766c7f291916d60c4f1cc1f3a1ae8d2",
+  "released_sha256": "e4c8f5e9eddb84668d5778a86eb187c10766c7f291916d60c4f1cc1f3a1ae8d2"
+ },
+ {
+  "source": "con-artist/configs/cells/seeded_v1.json",
+  "dest": "con-artist/configs/cells/seeded_v1.json",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "2002acb37e67684659b8b4a14370ca284d8bbee1b9ab8c8d734272a341efbcf0",
+  "released_sha256": "2002acb37e67684659b8b4a14370ca284d8bbee1b9ab8c8d734272a341efbcf0"
+ },
+ {
+  "source": "con-artist/configs/cells/sol_attacker.json",
+  "dest": "con-artist/configs/cells/sol_attacker.json",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "a3af67a760840fa93a027bd998ef1913b81b7d4879d620436e6e0b953f0d9d62",
+  "released_sha256": "a3af67a760840fa93a027bd998ef1913b81b7d4879d620436e6e0b953f0d9d62"
+ },
+ {
+  "source": "con-artist/configs/cells/valid_ids_v1.txt",
+  "dest": "con-artist/configs/cells/valid_ids_v1.txt",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "d29189d667f4b24e4844d78ae90aad0862472dd2c0b20e83c83258342a557540",
+  "released_sha256": "d29189d667f4b24e4844d78ae90aad0862472dd2c0b20e83c83258342a557540"
+ },
+ {
+  "source": "train-modal/freeze_train.py",
+  "dest": "train-modal/freeze_train.py",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "b319796d760b8b6a435b53c1c9f2c895a1606bd2d05663042aa42686185a6f4f",
+  "released_sha256": "a11ece887470a7e87c1d7c86d356fc45368957a4c194db46a77c823e3fe83a01"
+ },
+ {
+  "source": "train-modal/leak_check.py",
+  "dest": "train-modal/leak_check.py",
+  "action": "redact",
+  "note": "section-header literals split in code, lower case in comments and docstrings; syntax tree unchanged",
+  "source_sha256": "a4b1701d03a8f5f671b89cf3b13220f48c3734ee458b69fac3cbb66d8e14ebbe",
+  "released_sha256": "866ae050025c54408cf35e67a3c5674abdbd5a90b0deef3558ef5be23001985f"
+ },
+ {
+  "source": "train-modal/make_eval_input.py",
+  "dest": "train-modal/make_eval_input.py",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "5146120551c1b30910db53733c83b831a08788b54311874508e962e7fcfe8863",
+  "released_sha256": "f154ee35eb95c243b858167f391fbdcf1875d5a3dcb3da0f7823c01d0c30521f"
+ },
+ {
+  "source": "train-modal/make_eval_input_v789.py",
+  "dest": "train-modal/make_eval_input_v789.py",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "0e655baab20fda2443264ab91f5081cdd9a392d40eaa74189dffc9b52a63fdae",
+  "released_sha256": "f9d8c6d653ebacd8232a583fea03b9c4839bf9962ccf01e9c584f38d382152f9"
+ },
+ {
+  "source": "train-modal/modal_train.py",
+  "dest": "train-modal/modal_train.py",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "dab08757286381daaa9e383dd827623ece8347abaa215c45d6619a3677abd8b7",
+  "released_sha256": "2b585f6ce1c772bc97ebd882e20c8014db128aebec4a6bbf26d794e85e43506e"
+ },
+ {
+  "source": "train-modal/prep.py",
+  "dest": "train-modal/prep.py",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "876ba0128228a2f16137434123c860fe8639b4478e256d96cabb5c0baca3951f",
+  "released_sha256": "fa646318e8ab5d5bef61502e86c37e65e300afed065f4c43e2d340597c0b9905"
+ },
+ {
+  "source": "train-modal/score_eval.py",
+  "dest": "train-modal/score_eval.py",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "b641aa76732b77ffa1a2eb449369f8e03f986eee92edbc3b174297c822c3265d",
+  "released_sha256": "5237f7b8ba1a1019a6a222260eb9f51535c65b1d77895a23364d09691d63b950"
+ },
+ {
+  "source": "train-modal/score_signature.py",
+  "dest": "train-modal/score_signature.py",
+  "action": "redact",
+  "note": "section-header literals split in code, lower case in comments and docstrings; syntax tree unchanged",
+  "source_sha256": "1d9a85542695814c0863289967638a349154cbbd8ef4b0287c7976e7cbb0de4d",
+  "released_sha256": "819ec84f7a959e3214c435953af7d2951b38cbf569beaf75448109b1311302c3"
+ },
+ {
+  "source": "train-modal/score_v789.py",
+  "dest": "train-modal/score_v789.py",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "5167ccf7634656e1e36b458bb95aa55b583578ab7231d9981f89679aca85db32",
+  "released_sha256": "5167ccf7634656e1e36b458bb95aa55b583578ab7231d9981f89679aca85db32"
+ },
+ {
+  "source": "train-modal/score_v789_sensitivity.py",
+  "dest": "train-modal/score_v789_sensitivity.py",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "ffef7f2e83b1f29e7a2c39853abc8307a27f1dcc79b933b91ac25fdcb1d7ed92",
+  "released_sha256": "ffef7f2e83b1f29e7a2c39853abc8307a27f1dcc79b933b91ac25fdcb1d7ed92"
+ },
+ {
+  "source": "train-modal/signature_split.py",
+  "dest": "train-modal/signature_split.py",
+  "action": "redact",
+  "note": "section-header literals split in code, lower case in comments and docstrings; syntax tree unchanged",
+  "source_sha256": "2bc9578f82616536198279f3b452c155d5c71d55810b224a7c3bf5e2874a86d6",
+  "released_sha256": "2a0b77a9e83876981c9b92dc2e499ed64a2d0145959f06fed8afe0a7481511f5"
+ },
+ {
+  "source": "train-modal/tests/test_core.py",
+  "dest": "train-modal/tests/test_core.py",
+  "action": "redact",
+  "note": "section-header literals split in code, lower case in comments and docstrings; syntax tree unchanged",
+  "source_sha256": "8fa16b5667eedc3e34eb18e548a541a58502df8aed75bf03b9c6d1e2f64709ec",
+  "released_sha256": "27a9814ab8ac13ecbcae46a94cd52dc07b12f86034d3796f0402c2e72f6d318f"
+ },
+ {
+  "source": "train-modal/tests/test_signature.py",
+  "dest": "train-modal/tests/test_signature.py",
+  "action": "redact",
+  "note": "section-header literals split in code, lower case in comments and docstrings; syntax tree unchanged",
+  "source_sha256": "0f1562198f833dad9b90ea1dfbb2bd3faf6f6ed005e67a7e0212c5f93647d6e4",
+  "released_sha256": "ef04ad3aefd3f319982364e24eed1eaec2a697a20a574f705300d7efa4608039"
+ },
+ {
+  "source": "train-modal/tests/test_v789.py",
+  "dest": "train-modal/tests/test_v789.py",
+  "action": "redact",
+  "note": "section-header literals split in code, lower case in comments and docstrings; syntax tree unchanged",
+  "source_sha256": "1e345819c3b08e35145f592e8b6bcce8005aa6e86a595463f97d309e47885a83",
+  "released_sha256": "1d94b27ae9c3a1bcdc7d197dcd9d903bf354bf08539914df22c5418682726d4a"
+ },
+ {
+  "source": "train-modal/tests/test_v789_sensitivity.py",
+  "dest": "train-modal/tests/test_v789_sensitivity.py",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "09faed9b1038b7fc8988830095bfb8dcacf073cadd327617052db39b062f33b3",
+  "released_sha256": "09faed9b1038b7fc8988830095bfb8dcacf073cadd327617052db39b062f33b3"
+ },
+ {
+  "source": "train-modal/config/gemma31b.json",
+  "dest": "train-modal/config/gemma31b.json",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "908ac31afce36ebf8462679bc19afcd0e3795d4b90d0cea6f06c13c4a77dd0d8",
+  "released_sha256": "908ac31afce36ebf8462679bc19afcd0e3795d4b90d0cea6f06c13c4a77dd0d8"
+ },
+ {
+  "source": "train-modal/config/qwen9b.json",
+  "dest": "train-modal/config/qwen9b.json",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "5e05aa00f0aa037871e959b447efdd2d74f1eae6301ca23a8a232d8174fc52a7",
+  "released_sha256": "5e05aa00f0aa037871e959b447efdd2d74f1eae6301ca23a8a232d8174fc52a7"
+ },
+ {
+  "source": "train-modal/freezes/dpoB.json",
+  "dest": "train-modal/freezes/dpoB.json",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "708403fbcc45ecf0654d0006ee3ec47f36f4ea25c3b3b3fcd5a7d114dca10122",
+  "released_sha256": "708403fbcc45ecf0654d0006ee3ec47f36f4ea25c3b3b3fcd5a7d114dca10122"
+ },
+ {
+  "source": "train-modal/freezes/dpoC.json",
+  "dest": "train-modal/freezes/dpoC.json",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "2af9902e7e4f9be049c1a2467f47072e5ef7de43dcbac265033f37cca57af9b7",
+  "released_sha256": "2af9902e7e4f9be049c1a2467f47072e5ef7de43dcbac265033f37cca57af9b7"
+ },
+ {
+  "source": "train-modal/freezes/dry1.json",
+  "dest": "train-modal/freezes/dry1.json",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "98520b1416c958d1121fa4c8f43f3695931750b5ae678845e131d013377164f7",
+  "released_sha256": "98520b1416c958d1121fa4c8f43f3695931750b5ae678845e131d013377164f7"
+ },
+ {
+  "source": "train-modal/freezes/evalH.json",
+  "dest": "train-modal/freezes/evalH.json",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "b833ccb6978d947177a98b218908017297d8e376e2ebd49b29992a3c6f3ad80d",
+  "released_sha256": "b833ccb6978d947177a98b218908017297d8e376e2ebd49b29992a3c6f3ad80d"
+ },
+ {
+  "source": "train-modal/freezes/evalV789.json",
+  "dest": "train-modal/freezes/evalV789.json",
+  "action": "reword",
+  "note": "section-header words in a prose note written in lower case; no other change",
+  "source_sha256": "47b76495202e5b401ce4dfebc56712cb4509a585a288e7fd2b7afeef2cc45a9d",
+  "released_sha256": "12ef2a1967e59bd1e43033e0d539f0aecbb57b75e619379ab720ed01699a0ede"
+ },
+ {
+  "source": "train-modal/freezes/evalV789_addendum1.json",
+  "dest": "train-modal/freezes/evalV789_addendum1.json",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "619bed11ded3758180b689c86d2bfd97b7f09fb45107a8cb57154431ab5ac246",
+  "released_sha256": "619bed11ded3758180b689c86d2bfd97b7f09fb45107a8cb57154431ab5ac246"
+ },
+ {
+  "source": "train-modal/freezes/evalV789_addendum2.json",
+  "dest": "train-modal/freezes/evalV789_addendum2.json",
+  "action": "reword",
+  "note": "section-header words in a prose note written in lower case; no other change",
+  "source_sha256": "b67b43acd317b768ced4ea7969260e8aad945ad5b88c5824b4aa5645375cf7be",
+  "released_sha256": "ee67cb82e02947715ea043a11c8d685a6f7893f105675c9678f647c466d3a5ef"
+ },
+ {
+  "source": "train-modal/freezes/sftA.json",
+  "dest": "train-modal/freezes/sftA.json",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "0339ee71dc79c6c4f834f7579900c800e87ecff3b83f8f491ae4a8ce72a2e86f",
+  "released_sha256": "0339ee71dc79c6c4f834f7579900c800e87ecff3b83f8f491ae4a8ce72a2e86f"
+ },
+ {
+  "source": "train-modal/data/leak_report.json",
+  "dest": "train-modal/data/leak_report.json",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "6a4b93b2770aba28ef7cf131b6f16a474f6697e5f3cec8490fbf85fc8fd1d87a",
+  "released_sha256": "6a4b93b2770aba28ef7cf131b6f16a474f6697e5f3cec8490fbf85fc8fd1d87a"
+ },
+ {
+  "source": "train-modal/data/prep_summary.json",
+  "dest": "train-modal/data/prep_summary.json",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "abb2745c7ed6b0e9a099ba740c713aba2bec2db85e1d6f3a80bba6eb38f1a411",
+  "released_sha256": "abb2745c7ed6b0e9a099ba740c713aba2bec2db85e1d6f3a80bba6eb38f1a411"
+ },
+ {
+  "source": "train-modal/data_dpoC/leak_report.json",
+  "dest": "train-modal/data_dpoC/leak_report.json",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "7669ec1354675b61ba0fefa1ec5cd7d96397398950ab86953044f69c1efc081a",
+  "released_sha256": "7669ec1354675b61ba0fefa1ec5cd7d96397398950ab86953044f69c1efc081a"
+ },
+ {
+  "source": "train-modal/data_dpoC/prep_summary.json",
+  "dest": "train-modal/data_dpoC/prep_summary.json",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "cf1403a34e15ddd7d8d84095472cb94432dd0bfe9f027bba63510eeef698bd3e",
+  "released_sha256": "cf1403a34e15ddd7d8d84095472cb94432dd0bfe9f027bba63510eeef698bd3e"
+ },
+ {
+  "source": "train-modal/results/dpoB_train_result.json",
+  "dest": "train-modal/results/dpoB_train_result.json",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "dfef4af928ec9b965a7853ced2378a76791e210a35a5b357e473164ffcc22bec",
+  "released_sha256": "dfef4af928ec9b965a7853ced2378a76791e210a35a5b357e473164ffcc22bec"
+ },
+ {
+  "source": "train-modal/results/dpoC_train_result.json",
+  "dest": "train-modal/results/dpoC_train_result.json",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "8b6c85ab56e1284735c0a6a9bff2214ec62cef0e85dbfa0a4fc3a6d81578f044",
+  "released_sha256": "8b6c85ab56e1284735c0a6a9bff2214ec62cef0e85dbfa0a4fc3a6d81578f044"
+ },
+ {
+  "source": "train-modal/results/dry1_train_result.json",
+  "dest": "train-modal/results/dry1_train_result.json",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "54f0f7e0e664d190ee220ac2553ddd1919bfc2e537c124713d2a629cf9d724bd",
+  "released_sha256": "54f0f7e0e664d190ee220ac2553ddd1919bfc2e537c124713d2a629cf9d724bd"
+ },
+ {
+  "source": "train-modal/results/evalH_scores.json",
+  "dest": "train-modal/results/evalH_scores.json",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "110e05a233a66e5b4fa2e6bce6073d7beb7c16e98c69ad31c8eada7b0a306223",
+  "released_sha256": "110e05a233a66e5b4fa2e6bce6073d7beb7c16e98c69ad31c8eada7b0a306223"
+ },
+ {
+  "source": "train-modal/results/evalH_signature_scores.json",
+  "dest": "train-modal/results/evalH_signature_scores.json",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "8e1f5a11c5a3736cb1a1b9f2fc77a3bfbee41d7314f205b9ef3cedb53c2f58c9",
+  "released_sha256": "8e1f5a11c5a3736cb1a1b9f2fc77a3bfbee41d7314f205b9ef3cedb53c2f58c9"
+ },
+ {
+  "source": "train-modal/results/evalV789_scores.json",
+  "dest": "train-modal/results/evalV789_scores.json",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "16f5d9ccfc2bc3a11fe702e996a38cf089de5bb087bd21a319260daddbc5859c",
+  "released_sha256": "16f5d9ccfc2bc3a11fe702e996a38cf089de5bb087bd21a319260daddbc5859c"
+ },
+ {
+  "source": "train-modal/results/evalV789_sensitivity.json",
+  "dest": "train-modal/results/evalV789_sensitivity.json",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "90af646dd18760d226e947be70440e41527d2fc373bcb6719c473ea10b8cc409",
+  "released_sha256": "90af646dd18760d226e947be70440e41527d2fc373bcb6719c473ea10b8cc409"
+ },
+ {
+  "source": "train-modal/results/sftA_train_result.json",
+  "dest": "train-modal/results/sftA_train_result.json",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "9b001d81e1dec7c3d65489720c586812f2016d0c0540892ecd99c295a68864c0",
+  "released_sha256": "9b001d81e1dec7c3d65489720c586812f2016d0c0540892ecd99c295a68864c0"
+ },
+ {
+  "source": "tools/ask_model.py",
+  "dest": "tools/ask_model.py",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "66a23ee4af725f5e29ced09331710df3e43694389ca87ba476aa4c08c0559557",
+  "released_sha256": "66a23ee4af725f5e29ced09331710df3e43694389ca87ba476aa4c08c0559557"
+ },
+ {
+  "source": "tools/public_repo_readmes/con-artist/README.md",
+  "dest": "con-artist/README.md",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "aff187b496d024a074b18d43de4a783f051dac3a7bb6dd45738dd52f852b8252",
+  "released_sha256": "aff187b496d024a074b18d43de4a783f051dac3a7bb6dd45738dd52f852b8252"
+ },
+ {
+  "source": "tools/public_repo_readmes/train-modal/README.md",
+  "dest": "train-modal/README.md",
+  "action": "copy",
+  "note": "",
+  "source_sha256": "06958f7fedd72e6cccd1c61fcb3ecaa765f992be560ca66fb8b4a9b976ebc7fe",
+  "released_sha256": "06958f7fedd72e6cccd1c61fcb3ecaa765f992be560ca66fb8b4a9b976ebc7fe"
+ }
+]

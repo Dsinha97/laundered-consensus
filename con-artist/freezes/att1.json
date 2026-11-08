@@ -1,0 +1,135 @@
+{
+  "cell": "att1",
+  "mode": "lever",
+  "files": {
+    "packets": {
+      "path": "plans/prompts/pilot_packets_87_with_labels.jsonl",
+      "sha256": "5884513fbabd9f16b6d8348f804a6265ebe7d2a6dc0ac561ac9cd588e05a06f9"
+    },
+    "attacker_prompt": {
+      "path": "con-artist/configs/attacker_v1.md",
+      "sha256": "293a6ea345b41b1c38676203820b2783e646712c1dcf786d66f1d2501229ba86"
+    },
+    "reviewer_prompt": {
+      "path": "con-artist/configs/reviewer_v1.md",
+      "sha256": "30109807d5c94798fb9b67c89f91dbb49a4fa9ea96673a474ffbddb3fa995d41"
+    },
+    "prompt_plain": {
+      "path": "plans/prompts/prompts/prompt_plain.txt",
+      "sha256": "bdc71741bc9308cf7f15dc97a70e15cc20be53fa6c440357c4f6d9397b3a9f98"
+    },
+    "prompt_neutral": {
+      "path": "plans/prompts/prompts/prompt_neutral.txt",
+      "sha256": "2ca5f85eca37b929be301a94b2d36da03dac7101fd3ef0d29159c5a6315def9e"
+    },
+    "prompt_evidence": {
+      "path": "plans/prompts/prompts/prompt_evidence.txt",
+      "sha256": "5aac19b5b91061815ce3afd0dc436f6d0f7076b812d944935fa92f284f3c9258"
+    },
+    "reviewer_calibration": {
+      "path": "con-artist/calibration/reviewer_calibration_v1.jsonl",
+      "sha256": "a9befe03eeac37baae10741382bd12b764fc974df271234ce99e9982aaab91cc"
+    },
+    "code:providers.py": {
+      "path": "con-artist/providers.py",
+      "sha256": "15a5c417b71c5662ab291a5d3e56b1017f471e9b2206adf163f854d5f7a5700c"
+    },
+    "code:packets.py": {
+      "path": "con-artist/packets.py",
+      "sha256": "6d760bfa7e20011f8d8b3fde53eb890cbac1b80aff5e1c1d647f8e0ee49c7fc8"
+    },
+    "code:parse.py": {
+      "path": "con-artist/parse.py",
+      "sha256": "2273658687545812a38e142fc73242083c58744cd4a48c61b944bed3af77aa66"
+    },
+    "code:runlog.py": {
+      "path": "con-artist/runlog.py",
+      "sha256": "e8d2ee39ce010d52d3d8a9b5f15b003d7cabd6aee92cf2714cd10abdfddf8637"
+    },
+    "code:watchdog.py": {
+      "path": "con-artist/watchdog.py",
+      "sha256": "949bb7e9562afcff000727a289d25ba5370f6bb8fd73ec27b490ddaf4cfeb0a7"
+    },
+    "code:attacker.py": {
+      "path": "con-artist/attacker.py",
+      "sha256": "82c8306d17e5330abca486027836c6735996f9f4bb0d599c37976beeaf76e576"
+    },
+    "code:checker.py": {
+      "path": "con-artist/checker.py",
+      "sha256": "2cc6e55282b20cd5aeaf606871c6132a23867c25ac3a0ec424fca69d06f09d8c"
+    },
+    "code:score.py": {
+      "path": "con-artist/score.py",
+      "sha256": "99c884410d5085c9ec1a3e677ac3df98b78105b3383d9c49be8f04cea707e6b0"
+    },
+    "code:freeze.py": {
+      "path": "con-artist/freeze.py",
+      "sha256": "6e13384744253fad3c43e34bbf6d93d0b54f104cd65bf857932e9b78a18ce394"
+    },
+    "code:run.py": {
+      "path": "con-artist/run.py",
+      "sha256": "3fda195a50dd77308bb4651341dbd6367dc5971e151a7980f1fc708065df0701"
+    },
+    "code:configs/settings.json": {
+      "path": "con-artist/configs/settings.json",
+      "sha256": "51f2919319ea80156e17c74ee45e54b6474eefb29a600c120c43bbe3172b17f5"
+    }
+  },
+  "models": {
+    "gemma": {
+      "route": "adaption",
+      "model": "gemma-4-31b-it",
+      "effort": null,
+      "max_tokens": 2000
+    },
+    "qwen": {
+      "route": "adaption",
+      "model": "qwen3.8-27b",
+      "effort": null,
+      "max_tokens": 8000
+    },
+    "deepseek": {
+      "route": "adaption",
+      "model": "deepseek-v4-flash",
+      "effort": null,
+      "max_tokens": 3000
+    },
+    "glm": {
+      "route": "openrouter",
+      "model": "z-ai/glm-5.3-flash",
+      "effort": "low",
+      "max_tokens": 3000
+    }
+  },
+  "attacker": {
+    "route": "adaption",
+    "model": "deepseek-v4-flash",
+    "effort": null,
+    "max_tokens": 3000,
+    "prompt": "con-artist/configs/attacker_v1.md"
+  },
+  "reviewer": {
+    "route": "adaption",
+    "model": "gemma-4-31b-it",
+    "effort": null,
+    "max_tokens": 1500,
+    "prompt": "con-artist/configs/reviewer_v1.md"
+  },
+  "rounds": 5,
+  "confirm": [
+    2,
+    3
+  ],
+  "null_reps": 5,
+  "verdict_rule": "cleared = parse_ok and verdict == clear; a parse failure or empty reply is never a clear",
+  "prices_out_per_million_usd": {
+    "gemma-4-31b-it": 0.34,
+    "qwen3.8-27b": 1.25,
+    "deepseek-v4-flash": 0.133,
+    "z-ai/glm-5.3-flash": 0.5
+  },
+  "git": {
+    "commit": "8506f3ec39baa44baef10724b582e0c3553485fc",
+    "con_artist_dirty": true
+  }
+}

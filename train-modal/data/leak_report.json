@@ -1,0 +1,22 @@
+{
+  "status": "pass",
+  "exact_matches": 0,
+  "near_matches": 0,
+  "exact": [],
+  "near": [],
+  "threshold": 0.5,
+  "ngram": 8,
+  "train_rows": 2807,
+  "train_sha256": "3c01759a0855b7db4d59eaa8279d12b1e312cdc00da1292390d165a729891486",
+  "heldout_sha256": "9843322e0309810c8a960a489ef3565bd3ddc7d8b7703b292f41f30fac742c12",
+  "references": {
+    "heldout_v2": 278,
+    "pilot_packets_87_with_labels.jsonl": 87,
+    "train_test30.jsonl": 64,
+    "packets_scripted.jsonl": 10,
+    "packets_opus_blind.jsonl": 10,
+    "packets_opus_disclosed.jsonl": 10,
+    "packets_gpt_blind.jsonl": 10,
+    "packets_gpt_disclosed.jsonl": 10
+  }
+}

@@ -1,0 +1,9 @@
+run	model	condition	packet_id	verdict	error	round
+errata_rescore	DS	plain	inv789-0042	flag		v7
+errata_rescore	DS	plain	inv-0377	flag		
+errata_rescore	GM	plain	inv789-0042	flag		v7
+errata_rescore	GM	plain	inv-0377	flag		
+errata_rescore	z-ai/glm-5.3-flash	plain	inv789-0042	flag		v7
+errata_rescore	z-ai/glm-5.3-flash	plain	inv-0377	flag		
+errata_rescore	QW	plain	inv789-0042	flag		v7
+errata_rescore	QW	plain	inv-0377	flag		

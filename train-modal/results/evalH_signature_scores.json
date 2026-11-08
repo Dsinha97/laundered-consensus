@@ -1,0 +1,2175 @@
+{
+  "models": [
+    "base",
+    "sftA",
+    "dpoB",
+    "dpoC"
+  ],
+  "signature_rows_total": 27,
+  "groups": {
+    "main_final_list:signature_rule": {
+      "rows": 23,
+      "base": {
+        "rows": 23,
+        "parse_failures": {
+          "k": 0,
+          "n": 23,
+          "rate": 0.0,
+          "lo": 0,
+          "hi": 0.1431,
+          "small_n": false
+        },
+        "missed_violations": {
+          "k": 0,
+          "n": 17,
+          "rate": 0.0,
+          "lo": 0,
+          "hi": 0.1843,
+          "small_n": false
+        },
+        "false_alarms": {
+          "k": 0,
+          "n": 6,
+          "rate": 0.0,
+          "lo": 0,
+          "hi": 0.3903,
+          "small_n": true
+        },
+        "lenient_verdict_disagreements": 0,
+        "by_family": {
+          "firmware_sampling": {
+            "missed_violations": {
+              "k": 0,
+              "n": 9,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.2992,
+              "small_n": true
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 2,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.6576,
+              "small_n": true
+            }
+          },
+          "logging_personal_data": {
+            "missed_violations": {
+              "k": 0,
+              "n": 2,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.6576,
+              "small_n": true
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 0,
+              "rate": null,
+              "lo": null,
+              "hi": null,
+              "small_n": true
+            }
+          },
+          "verse_formatting": {
+            "missed_violations": {
+              "k": 0,
+              "n": 6,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.3903,
+              "small_n": true
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 4,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.4899,
+              "small_n": true
+            }
+          }
+        }
+      },
+      "sftA": {
+        "rows": 23,
+        "parse_failures": {
+          "k": 0,
+          "n": 23,
+          "rate": 0.0,
+          "lo": 0,
+          "hi": 0.1431,
+          "small_n": false
+        },
+        "missed_violations": {
+          "k": 0,
+          "n": 17,
+          "rate": 0.0,
+          "lo": 0,
+          "hi": 0.1843,
+          "small_n": false
+        },
+        "false_alarms": {
+          "k": 0,
+          "n": 6,
+          "rate": 0.0,
+          "lo": 0,
+          "hi": 0.3903,
+          "small_n": true
+        },
+        "lenient_verdict_disagreements": 0,
+        "by_family": {
+          "firmware_sampling": {
+            "missed_violations": {
+              "k": 0,
+              "n": 9,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.2992,
+              "small_n": true
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 2,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.6576,
+              "small_n": true
+            }
+          },
+          "logging_personal_data": {
+            "missed_violations": {
+              "k": 0,
+              "n": 2,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.6576,
+              "small_n": true
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 0,
+              "rate": null,
+              "lo": null,
+              "hi": null,
+              "small_n": true
+            }
+          },
+          "verse_formatting": {
+            "missed_violations": {
+              "k": 0,
+              "n": 6,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.3903,
+              "small_n": true
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 4,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.4899,
+              "small_n": true
+            }
+          }
+        }
+      },
+      "dpoB": {
+        "rows": 23,
+        "parse_failures": {
+          "k": 0,
+          "n": 23,
+          "rate": 0.0,
+          "lo": 0,
+          "hi": 0.1431,
+          "small_n": false
+        },
+        "missed_violations": {
+          "k": 0,
+          "n": 17,
+          "rate": 0.0,
+          "lo": 0,
+          "hi": 0.1843,
+          "small_n": false
+        },
+        "false_alarms": {
+          "k": 0,
+          "n": 6,
+          "rate": 0.0,
+          "lo": 0,
+          "hi": 0.3903,
+          "small_n": true
+        },
+        "lenient_verdict_disagreements": 0,
+        "by_family": {
+          "firmware_sampling": {
+            "missed_violations": {
+              "k": 0,
+              "n": 9,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.2992,
+              "small_n": true
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 2,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.6576,
+              "small_n": true
+            }
+          },
+          "logging_personal_data": {
+            "missed_violations": {
+              "k": 0,
+              "n": 2,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.6576,
+              "small_n": true
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 0,
+              "rate": null,
+              "lo": null,
+              "hi": null,
+              "small_n": true
+            }
+          },
+          "verse_formatting": {
+            "missed_violations": {
+              "k": 0,
+              "n": 6,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.3903,
+              "small_n": true
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 4,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.4899,
+              "small_n": true
+            }
+          }
+        }
+      },
+      "dpoC": {
+        "rows": 23,
+        "parse_failures": {
+          "k": 3,
+          "n": 23,
+          "rate": 0.1304,
+          "lo": 0.0454,
+          "hi": 0.3213,
+          "small_n": false
+        },
+        "missed_violations": {
+          "k": 0,
+          "n": 17,
+          "rate": 0.0,
+          "lo": 0,
+          "hi": 0.1843,
+          "small_n": false
+        },
+        "false_alarms": {
+          "k": 0,
+          "n": 6,
+          "rate": 0.0,
+          "lo": 0,
+          "hi": 0.3903,
+          "small_n": true
+        },
+        "lenient_verdict_disagreements": 3,
+        "by_family": {
+          "firmware_sampling": {
+            "missed_violations": {
+              "k": 0,
+              "n": 9,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.2992,
+              "small_n": true
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 2,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.6576,
+              "small_n": true
+            }
+          },
+          "logging_personal_data": {
+            "missed_violations": {
+              "k": 0,
+              "n": 2,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.6576,
+              "small_n": true
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 0,
+              "rate": null,
+              "lo": null,
+              "hi": null,
+              "small_n": true
+            }
+          },
+          "verse_formatting": {
+            "missed_violations": {
+              "k": 0,
+              "n": 6,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.3903,
+              "small_n": true
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 4,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.4899,
+              "small_n": true
+            }
+          }
+        }
+      }
+    },
+    "main_final_list:other": {
+      "rows": 238,
+      "base": {
+        "rows": 238,
+        "parse_failures": {
+          "k": 0,
+          "n": 238,
+          "rate": 0.0,
+          "lo": 0.0,
+          "hi": 0.0159,
+          "small_n": false
+        },
+        "missed_violations": {
+          "k": 10,
+          "n": 162,
+          "rate": 0.0617,
+          "lo": 0.0339,
+          "hi": 0.1099,
+          "small_n": false
+        },
+        "false_alarms": {
+          "k": 0,
+          "n": 76,
+          "rate": 0.0,
+          "lo": 0,
+          "hi": 0.0481,
+          "small_n": false
+        },
+        "lenient_verdict_disagreements": 0,
+        "by_family": {
+          "accessibility": {
+            "missed_violations": {
+              "k": 0,
+              "n": 6,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.3903,
+              "small_n": true
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 4,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.4899,
+              "small_n": true
+            }
+          },
+          "data_retention": {
+            "missed_violations": {
+              "k": 0,
+              "n": 10,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.2775,
+              "small_n": false
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 6,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.3903,
+              "small_n": true
+            }
+          },
+          "dependency_licensing": {
+            "missed_violations": {
+              "k": 1,
+              "n": 8,
+              "rate": 0.125,
+              "lo": 0.0224,
+              "hi": 0.4709,
+              "small_n": true
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 4,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.4899,
+              "small_n": true
+            }
+          },
+          "feature_flag_rollout": {
+            "missed_violations": {
+              "k": 0,
+              "n": 10,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.2775,
+              "small_n": false
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 4,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.4899,
+              "small_n": true
+            }
+          },
+          "firmware_sampling": {
+            "missed_violations": {
+              "k": 4,
+              "n": 58,
+              "rate": 0.069,
+              "lo": 0.0271,
+              "hi": 0.1643,
+              "small_n": false
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 24,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.138,
+              "small_n": false
+            }
+          },
+          "logging_personal_data": {
+            "missed_violations": {
+              "k": 1,
+              "n": 8,
+              "rate": 0.125,
+              "lo": 0.0224,
+              "hi": 0.4709,
+              "small_n": true
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 5,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.4345,
+              "small_n": true
+            }
+          },
+          "ui_content": {
+            "missed_violations": {
+              "k": 0,
+              "n": 7,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.3543,
+              "small_n": true
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 3,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.5615,
+              "small_n": true
+            }
+          },
+          "verse_formatting": {
+            "missed_violations": {
+              "k": 4,
+              "n": 55,
+              "rate": 0.0727,
+              "lo": 0.0286,
+              "hi": 0.1726,
+              "small_n": false
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 26,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.1287,
+              "small_n": false
+            }
+          }
+        }
+      },
+      "sftA": {
+        "rows": 238,
+        "parse_failures": {
+          "k": 0,
+          "n": 238,
+          "rate": 0.0,
+          "lo": 0.0,
+          "hi": 0.0159,
+          "small_n": false
+        },
+        "missed_violations": {
+          "k": 1,
+          "n": 162,
+          "rate": 0.0062,
+          "lo": 0.0011,
+          "hi": 0.0341,
+          "small_n": false
+        },
+        "false_alarms": {
+          "k": 0,
+          "n": 76,
+          "rate": 0.0,
+          "lo": 0,
+          "hi": 0.0481,
+          "small_n": false
+        },
+        "lenient_verdict_disagreements": 0,
+        "by_family": {
+          "accessibility": {
+            "missed_violations": {
+              "k": 0,
+              "n": 6,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.3903,
+              "small_n": true
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 4,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.4899,
+              "small_n": true
+            }
+          },
+          "data_retention": {
+            "missed_violations": {
+              "k": 0,
+              "n": 10,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.2775,
+              "small_n": false
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 6,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.3903,
+              "small_n": true
+            }
+          },
+          "dependency_licensing": {
+            "missed_violations": {
+              "k": 0,
+              "n": 8,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.3244,
+              "small_n": true
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 4,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.4899,
+              "small_n": true
+            }
+          },
+          "feature_flag_rollout": {
+            "missed_violations": {
+              "k": 0,
+              "n": 10,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.2775,
+              "small_n": false
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 4,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.4899,
+              "small_n": true
+            }
+          },
+          "firmware_sampling": {
+            "missed_violations": {
+              "k": 1,
+              "n": 58,
+              "rate": 0.0172,
+              "lo": 0.003,
+              "hi": 0.0914,
+              "small_n": false
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 24,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.138,
+              "small_n": false
+            }
+          },
+          "logging_personal_data": {
+            "missed_violations": {
+              "k": 0,
+              "n": 8,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.3244,
+              "small_n": true
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 5,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.4345,
+              "small_n": true
+            }
+          },
+          "ui_content": {
+            "missed_violations": {
+              "k": 0,
+              "n": 7,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.3543,
+              "small_n": true
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 3,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.5615,
+              "small_n": true
+            }
+          },
+          "verse_formatting": {
+            "missed_violations": {
+              "k": 0,
+              "n": 55,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.0653,
+              "small_n": false
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 26,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.1287,
+              "small_n": false
+            }
+          }
+        }
+      },
+      "dpoB": {
+        "rows": 238,
+        "parse_failures": {
+          "k": 0,
+          "n": 238,
+          "rate": 0.0,
+          "lo": 0.0,
+          "hi": 0.0159,
+          "small_n": false
+        },
+        "missed_violations": {
+          "k": 0,
+          "n": 162,
+          "rate": 0.0,
+          "lo": 0,
+          "hi": 0.0232,
+          "small_n": false
+        },
+        "false_alarms": {
+          "k": 0,
+          "n": 76,
+          "rate": 0.0,
+          "lo": 0,
+          "hi": 0.0481,
+          "small_n": false
+        },
+        "lenient_verdict_disagreements": 0,
+        "by_family": {
+          "accessibility": {
+            "missed_violations": {
+              "k": 0,
+              "n": 6,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.3903,
+              "small_n": true
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 4,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.4899,
+              "small_n": true
+            }
+          },
+          "data_retention": {
+            "missed_violations": {
+              "k": 0,
+              "n": 10,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.2775,
+              "small_n": false
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 6,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.3903,
+              "small_n": true
+            }
+          },
+          "dependency_licensing": {
+            "missed_violations": {
+              "k": 0,
+              "n": 8,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.3244,
+              "small_n": true
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 4,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.4899,
+              "small_n": true
+            }
+          },
+          "feature_flag_rollout": {
+            "missed_violations": {
+              "k": 0,
+              "n": 10,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.2775,
+              "small_n": false
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 4,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.4899,
+              "small_n": true
+            }
+          },
+          "firmware_sampling": {
+            "missed_violations": {
+              "k": 0,
+              "n": 58,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.0621,
+              "small_n": false
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 24,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.138,
+              "small_n": false
+            }
+          },
+          "logging_personal_data": {
+            "missed_violations": {
+              "k": 0,
+              "n": 8,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.3244,
+              "small_n": true
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 5,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.4345,
+              "small_n": true
+            }
+          },
+          "ui_content": {
+            "missed_violations": {
+              "k": 0,
+              "n": 7,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.3543,
+              "small_n": true
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 3,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.5615,
+              "small_n": true
+            }
+          },
+          "verse_formatting": {
+            "missed_violations": {
+              "k": 0,
+              "n": 55,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.0653,
+              "small_n": false
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 26,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.1287,
+              "small_n": false
+            }
+          }
+        }
+      },
+      "dpoC": {
+        "rows": 238,
+        "parse_failures": {
+          "k": 10,
+          "n": 238,
+          "rate": 0.042,
+          "lo": 0.023,
+          "hi": 0.0756,
+          "small_n": false
+        },
+        "missed_violations": {
+          "k": 0,
+          "n": 162,
+          "rate": 0.0,
+          "lo": 0,
+          "hi": 0.0232,
+          "small_n": false
+        },
+        "false_alarms": {
+          "k": 0,
+          "n": 76,
+          "rate": 0.0,
+          "lo": 0,
+          "hi": 0.0481,
+          "small_n": false
+        },
+        "lenient_verdict_disagreements": 10,
+        "by_family": {
+          "accessibility": {
+            "missed_violations": {
+              "k": 0,
+              "n": 6,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.3903,
+              "small_n": true
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 4,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.4899,
+              "small_n": true
+            }
+          },
+          "data_retention": {
+            "missed_violations": {
+              "k": 0,
+              "n": 10,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.2775,
+              "small_n": false
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 6,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.3903,
+              "small_n": true
+            }
+          },
+          "dependency_licensing": {
+            "missed_violations": {
+              "k": 0,
+              "n": 8,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.3244,
+              "small_n": true
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 4,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.4899,
+              "small_n": true
+            }
+          },
+          "feature_flag_rollout": {
+            "missed_violations": {
+              "k": 0,
+              "n": 10,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.2775,
+              "small_n": false
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 4,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.4899,
+              "small_n": true
+            }
+          },
+          "firmware_sampling": {
+            "missed_violations": {
+              "k": 0,
+              "n": 58,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.0621,
+              "small_n": false
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 24,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.138,
+              "small_n": false
+            }
+          },
+          "logging_personal_data": {
+            "missed_violations": {
+              "k": 0,
+              "n": 8,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.3244,
+              "small_n": true
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 5,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.4345,
+              "small_n": true
+            }
+          },
+          "ui_content": {
+            "missed_violations": {
+              "k": 0,
+              "n": 7,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.3543,
+              "small_n": true
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 3,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.5615,
+              "small_n": true
+            }
+          },
+          "verse_formatting": {
+            "missed_violations": {
+              "k": 0,
+              "n": 55,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.0653,
+              "small_n": false
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 26,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.1287,
+              "small_n": false
+            }
+          }
+        }
+      }
+    },
+    "all_rows:signature_rule": {
+      "rows": 27,
+      "base": {
+        "rows": 27,
+        "parse_failures": {
+          "k": 0,
+          "n": 27,
+          "rate": 0.0,
+          "lo": 0.0,
+          "hi": 0.1246,
+          "small_n": false
+        },
+        "missed_violations": {
+          "k": 0,
+          "n": 17,
+          "rate": 0.0,
+          "lo": 0,
+          "hi": 0.1843,
+          "small_n": false
+        },
+        "false_alarms": {
+          "k": 0,
+          "n": 10,
+          "rate": 0.0,
+          "lo": 0,
+          "hi": 0.2775,
+          "small_n": false
+        },
+        "lenient_verdict_disagreements": 0,
+        "by_family": {
+          "firmware_sampling": {
+            "missed_violations": {
+              "k": 0,
+              "n": 9,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.2992,
+              "small_n": true
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 5,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.4345,
+              "small_n": true
+            }
+          },
+          "logging_personal_data": {
+            "missed_violations": {
+              "k": 0,
+              "n": 2,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.6576,
+              "small_n": true
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 1,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.7935,
+              "small_n": true
+            }
+          },
+          "verse_formatting": {
+            "missed_violations": {
+              "k": 0,
+              "n": 6,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.3903,
+              "small_n": true
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 4,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.4899,
+              "small_n": true
+            }
+          }
+        }
+      },
+      "sftA": {
+        "rows": 27,
+        "parse_failures": {
+          "k": 0,
+          "n": 27,
+          "rate": 0.0,
+          "lo": 0.0,
+          "hi": 0.1246,
+          "small_n": false
+        },
+        "missed_violations": {
+          "k": 0,
+          "n": 17,
+          "rate": 0.0,
+          "lo": 0,
+          "hi": 0.1843,
+          "small_n": false
+        },
+        "false_alarms": {
+          "k": 0,
+          "n": 10,
+          "rate": 0.0,
+          "lo": 0,
+          "hi": 0.2775,
+          "small_n": false
+        },
+        "lenient_verdict_disagreements": 0,
+        "by_family": {
+          "firmware_sampling": {
+            "missed_violations": {
+              "k": 0,
+              "n": 9,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.2992,
+              "small_n": true
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 5,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.4345,
+              "small_n": true
+            }
+          },
+          "logging_personal_data": {
+            "missed_violations": {
+              "k": 0,
+              "n": 2,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.6576,
+              "small_n": true
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 1,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.7935,
+              "small_n": true
+            }
+          },
+          "verse_formatting": {
+            "missed_violations": {
+              "k": 0,
+              "n": 6,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.3903,
+              "small_n": true
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 4,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.4899,
+              "small_n": true
+            }
+          }
+        }
+      },
+      "dpoB": {
+        "rows": 27,
+        "parse_failures": {
+          "k": 0,
+          "n": 27,
+          "rate": 0.0,
+          "lo": 0.0,
+          "hi": 0.1246,
+          "small_n": false
+        },
+        "missed_violations": {
+          "k": 0,
+          "n": 17,
+          "rate": 0.0,
+          "lo": 0,
+          "hi": 0.1843,
+          "small_n": false
+        },
+        "false_alarms": {
+          "k": 0,
+          "n": 10,
+          "rate": 0.0,
+          "lo": 0,
+          "hi": 0.2775,
+          "small_n": false
+        },
+        "lenient_verdict_disagreements": 0,
+        "by_family": {
+          "firmware_sampling": {
+            "missed_violations": {
+              "k": 0,
+              "n": 9,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.2992,
+              "small_n": true
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 5,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.4345,
+              "small_n": true
+            }
+          },
+          "logging_personal_data": {
+            "missed_violations": {
+              "k": 0,
+              "n": 2,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.6576,
+              "small_n": true
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 1,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.7935,
+              "small_n": true
+            }
+          },
+          "verse_formatting": {
+            "missed_violations": {
+              "k": 0,
+              "n": 6,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.3903,
+              "small_n": true
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 4,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.4899,
+              "small_n": true
+            }
+          }
+        }
+      },
+      "dpoC": {
+        "rows": 27,
+        "parse_failures": {
+          "k": 4,
+          "n": 27,
+          "rate": 0.1481,
+          "lo": 0.0592,
+          "hi": 0.3248,
+          "small_n": false
+        },
+        "missed_violations": {
+          "k": 0,
+          "n": 17,
+          "rate": 0.0,
+          "lo": 0,
+          "hi": 0.1843,
+          "small_n": false
+        },
+        "false_alarms": {
+          "k": 0,
+          "n": 10,
+          "rate": 0.0,
+          "lo": 0,
+          "hi": 0.2775,
+          "small_n": false
+        },
+        "lenient_verdict_disagreements": 4,
+        "by_family": {
+          "firmware_sampling": {
+            "missed_violations": {
+              "k": 0,
+              "n": 9,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.2992,
+              "small_n": true
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 5,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.4345,
+              "small_n": true
+            }
+          },
+          "logging_personal_data": {
+            "missed_violations": {
+              "k": 0,
+              "n": 2,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.6576,
+              "small_n": true
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 1,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.7935,
+              "small_n": true
+            }
+          },
+          "verse_formatting": {
+            "missed_violations": {
+              "k": 0,
+              "n": 6,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.3903,
+              "small_n": true
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 4,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.4899,
+              "small_n": true
+            }
+          }
+        }
+      }
+    },
+    "all_rows:other": {
+      "rows": 251,
+      "base": {
+        "rows": 251,
+        "parse_failures": {
+          "k": 0,
+          "n": 251,
+          "rate": 0.0,
+          "lo": 0,
+          "hi": 0.0151,
+          "small_n": false
+        },
+        "missed_violations": {
+          "k": 10,
+          "n": 162,
+          "rate": 0.0617,
+          "lo": 0.0339,
+          "hi": 0.1099,
+          "small_n": false
+        },
+        "false_alarms": {
+          "k": 0,
+          "n": 89,
+          "rate": 0.0,
+          "lo": 0,
+          "hi": 0.0414,
+          "small_n": false
+        },
+        "lenient_verdict_disagreements": 0,
+        "by_family": {
+          "accessibility": {
+            "missed_violations": {
+              "k": 0,
+              "n": 6,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.3903,
+              "small_n": true
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 4,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.4899,
+              "small_n": true
+            }
+          },
+          "data_retention": {
+            "missed_violations": {
+              "k": 0,
+              "n": 10,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.2775,
+              "small_n": false
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 7,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.3543,
+              "small_n": true
+            }
+          },
+          "dependency_licensing": {
+            "missed_violations": {
+              "k": 1,
+              "n": 8,
+              "rate": 0.125,
+              "lo": 0.0224,
+              "hi": 0.4709,
+              "small_n": true
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 4,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.4899,
+              "small_n": true
+            }
+          },
+          "feature_flag_rollout": {
+            "missed_violations": {
+              "k": 0,
+              "n": 10,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.2775,
+              "small_n": false
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 5,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.4345,
+              "small_n": true
+            }
+          },
+          "firmware_sampling": {
+            "missed_violations": {
+              "k": 4,
+              "n": 58,
+              "rate": 0.069,
+              "lo": 0.0271,
+              "hi": 0.1643,
+              "small_n": false
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 30,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.1135,
+              "small_n": false
+            }
+          },
+          "logging_personal_data": {
+            "missed_violations": {
+              "k": 1,
+              "n": 8,
+              "rate": 0.125,
+              "lo": 0.0224,
+              "hi": 0.4709,
+              "small_n": true
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 5,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.4345,
+              "small_n": true
+            }
+          },
+          "ui_content": {
+            "missed_violations": {
+              "k": 0,
+              "n": 7,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.3543,
+              "small_n": true
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 4,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.4899,
+              "small_n": true
+            }
+          },
+          "verse_formatting": {
+            "missed_violations": {
+              "k": 4,
+              "n": 55,
+              "rate": 0.0727,
+              "lo": 0.0286,
+              "hi": 0.1726,
+              "small_n": false
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 30,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.1135,
+              "small_n": false
+            }
+          }
+        }
+      },
+      "sftA": {
+        "rows": 251,
+        "parse_failures": {
+          "k": 0,
+          "n": 251,
+          "rate": 0.0,
+          "lo": 0,
+          "hi": 0.0151,
+          "small_n": false
+        },
+        "missed_violations": {
+          "k": 1,
+          "n": 162,
+          "rate": 0.0062,
+          "lo": 0.0011,
+          "hi": 0.0341,
+          "small_n": false
+        },
+        "false_alarms": {
+          "k": 0,
+          "n": 89,
+          "rate": 0.0,
+          "lo": 0,
+          "hi": 0.0414,
+          "small_n": false
+        },
+        "lenient_verdict_disagreements": 0,
+        "by_family": {
+          "accessibility": {
+            "missed_violations": {
+              "k": 0,
+              "n": 6,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.3903,
+              "small_n": true
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 4,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.4899,
+              "small_n": true
+            }
+          },
+          "data_retention": {
+            "missed_violations": {
+              "k": 0,
+              "n": 10,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.2775,
+              "small_n": false
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 7,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.3543,
+              "small_n": true
+            }
+          },
+          "dependency_licensing": {
+            "missed_violations": {
+              "k": 0,
+              "n": 8,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.3244,
+              "small_n": true
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 4,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.4899,
+              "small_n": true
+            }
+          },
+          "feature_flag_rollout": {
+            "missed_violations": {
+              "k": 0,
+              "n": 10,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.2775,
+              "small_n": false
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 5,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.4345,
+              "small_n": true
+            }
+          },
+          "firmware_sampling": {
+            "missed_violations": {
+              "k": 1,
+              "n": 58,
+              "rate": 0.0172,
+              "lo": 0.003,
+              "hi": 0.0914,
+              "small_n": false
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 30,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.1135,
+              "small_n": false
+            }
+          },
+          "logging_personal_data": {
+            "missed_violations": {
+              "k": 0,
+              "n": 8,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.3244,
+              "small_n": true
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 5,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.4345,
+              "small_n": true
+            }
+          },
+          "ui_content": {
+            "missed_violations": {
+              "k": 0,
+              "n": 7,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.3543,
+              "small_n": true
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 4,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.4899,
+              "small_n": true
+            }
+          },
+          "verse_formatting": {
+            "missed_violations": {
+              "k": 0,
+              "n": 55,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.0653,
+              "small_n": false
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 30,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.1135,
+              "small_n": false
+            }
+          }
+        }
+      },
+      "dpoB": {
+        "rows": 251,
+        "parse_failures": {
+          "k": 0,
+          "n": 251,
+          "rate": 0.0,
+          "lo": 0,
+          "hi": 0.0151,
+          "small_n": false
+        },
+        "missed_violations": {
+          "k": 0,
+          "n": 162,
+          "rate": 0.0,
+          "lo": 0,
+          "hi": 0.0232,
+          "small_n": false
+        },
+        "false_alarms": {
+          "k": 1,
+          "n": 89,
+          "rate": 0.0112,
+          "lo": 0.002,
+          "hi": 0.0609,
+          "small_n": false
+        },
+        "lenient_verdict_disagreements": 0,
+        "by_family": {
+          "accessibility": {
+            "missed_violations": {
+              "k": 0,
+              "n": 6,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.3903,
+              "small_n": true
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 4,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.4899,
+              "small_n": true
+            }
+          },
+          "data_retention": {
+            "missed_violations": {
+              "k": 0,
+              "n": 10,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.2775,
+              "small_n": false
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 7,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.3543,
+              "small_n": true
+            }
+          },
+          "dependency_licensing": {
+            "missed_violations": {
+              "k": 0,
+              "n": 8,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.3244,
+              "small_n": true
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 4,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.4899,
+              "small_n": true
+            }
+          },
+          "feature_flag_rollout": {
+            "missed_violations": {
+              "k": 0,
+              "n": 10,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.2775,
+              "small_n": false
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 5,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.4345,
+              "small_n": true
+            }
+          },
+          "firmware_sampling": {
+            "missed_violations": {
+              "k": 0,
+              "n": 58,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.0621,
+              "small_n": false
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 30,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.1135,
+              "small_n": false
+            }
+          },
+          "logging_personal_data": {
+            "missed_violations": {
+              "k": 0,
+              "n": 8,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.3244,
+              "small_n": true
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 5,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.4345,
+              "small_n": true
+            }
+          },
+          "ui_content": {
+            "missed_violations": {
+              "k": 0,
+              "n": 7,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.3543,
+              "small_n": true
+            },
+            "false_alarms": {
+              "k": 1,
+              "n": 4,
+              "rate": 0.25,
+              "lo": 0.0456,
+              "hi": 0.6994,
+              "small_n": true
+            }
+          },
+          "verse_formatting": {
+            "missed_violations": {
+              "k": 0,
+              "n": 55,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.0653,
+              "small_n": false
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 30,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.1135,
+              "small_n": false
+            }
+          }
+        }
+      },
+      "dpoC": {
+        "rows": 251,
+        "parse_failures": {
+          "k": 11,
+          "n": 251,
+          "rate": 0.0438,
+          "lo": 0.0246,
+          "hi": 0.0768,
+          "small_n": false
+        },
+        "missed_violations": {
+          "k": 0,
+          "n": 162,
+          "rate": 0.0,
+          "lo": 0,
+          "hi": 0.0232,
+          "small_n": false
+        },
+        "false_alarms": {
+          "k": 0,
+          "n": 89,
+          "rate": 0.0,
+          "lo": 0,
+          "hi": 0.0414,
+          "small_n": false
+        },
+        "lenient_verdict_disagreements": 11,
+        "by_family": {
+          "accessibility": {
+            "missed_violations": {
+              "k": 0,
+              "n": 6,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.3903,
+              "small_n": true
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 4,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.4899,
+              "small_n": true
+            }
+          },
+          "data_retention": {
+            "missed_violations": {
+              "k": 0,
+              "n": 10,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.2775,
+              "small_n": false
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 7,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.3543,
+              "small_n": true
+            }
+          },
+          "dependency_licensing": {
+            "missed_violations": {
+              "k": 0,
+              "n": 8,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.3244,
+              "small_n": true
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 4,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.4899,
+              "small_n": true
+            }
+          },
+          "feature_flag_rollout": {
+            "missed_violations": {
+              "k": 0,
+              "n": 10,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.2775,
+              "small_n": false
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 5,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.4345,
+              "small_n": true
+            }
+          },
+          "firmware_sampling": {
+            "missed_violations": {
+              "k": 0,
+              "n": 58,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.0621,
+              "small_n": false
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 30,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.1135,
+              "small_n": false
+            }
+          },
+          "logging_personal_data": {
+            "missed_violations": {
+              "k": 0,
+              "n": 8,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.3244,
+              "small_n": true
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 5,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.4345,
+              "small_n": true
+            }
+          },
+          "ui_content": {
+            "missed_violations": {
+              "k": 0,
+              "n": 7,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.3543,
+              "small_n": true
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 4,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.4899,
+              "small_n": true
+            }
+          },
+          "verse_formatting": {
+            "missed_violations": {
+              "k": 0,
+              "n": 55,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.0653,
+              "small_n": false
+            },
+            "false_alarms": {
+              "k": 0,
+              "n": 30,
+              "rate": 0.0,
+              "lo": 0,
+              "hi": 0.1135,
+              "small_n": false
+            }
+          }
+        }
+      }
+    }
+  },
+  "paired_signature": {
+    "main_final_list:base__vs__sftA": {
+      "a_wrong_b_right": 0,
+      "a_right_b_wrong": 0,
+      "both_wrong": 0,
+      "both_right": 23,
+      "mcnemar_exact_p": 1.0
+    },
+    "main_final_list:base__vs__dpoB": {
+      "a_wrong_b_right": 0,
+      "a_right_b_wrong": 0,
+      "both_wrong": 0,
+      "both_right": 23,
+      "mcnemar_exact_p": 1.0
+    },
+    "main_final_list:base__vs__dpoC": {
+      "a_wrong_b_right": 0,
+      "a_right_b_wrong": 3,
+      "both_wrong": 0,
+      "both_right": 20,
+      "mcnemar_exact_p": 0.25
+    },
+    "main_final_list:sftA__vs__dpoB": {
+      "a_wrong_b_right": 0,
+      "a_right_b_wrong": 0,
+      "both_wrong": 0,
+      "both_right": 23,
+      "mcnemar_exact_p": 1.0
+    },
+    "main_final_list:sftA__vs__dpoC": {
+      "a_wrong_b_right": 0,
+      "a_right_b_wrong": 3,
+      "both_wrong": 0,
+      "both_right": 20,
+      "mcnemar_exact_p": 0.25
+    },
+    "main_final_list:dpoB__vs__dpoC": {
+      "a_wrong_b_right": 0,
+      "a_right_b_wrong": 3,
+      "both_wrong": 0,
+      "both_right": 20,
+      "mcnemar_exact_p": 0.25
+    },
+    "all_rows:base__vs__sftA": {
+      "a_wrong_b_right": 0,
+      "a_right_b_wrong": 0,
+      "both_wrong": 0,
+      "both_right": 27,
+      "mcnemar_exact_p": 1.0
+    },
+    "all_rows:base__vs__dpoB": {
+      "a_wrong_b_right": 0,
+      "a_right_b_wrong": 0,
+      "both_wrong": 0,
+      "both_right": 27,
+      "mcnemar_exact_p": 1.0
+    },
+    "all_rows:base__vs__dpoC": {
+      "a_wrong_b_right": 0,
+      "a_right_b_wrong": 4,
+      "both_wrong": 0,
+      "both_right": 23,
+      "mcnemar_exact_p": 0.125
+    },
+    "all_rows:sftA__vs__dpoB": {
+      "a_wrong_b_right": 0,
+      "a_right_b_wrong": 0,
+      "both_wrong": 0,
+      "both_right": 27,
+      "mcnemar_exact_p": 1.0
+    },
+    "all_rows:sftA__vs__dpoC": {
+      "a_wrong_b_right": 0,
+      "a_right_b_wrong": 4,
+      "both_wrong": 0,
+      "both_right": 23,
+      "mcnemar_exact_p": 0.125
+    },
+    "all_rows:dpoB__vs__dpoC": {
+      "a_wrong_b_right": 0,
+      "a_right_b_wrong": 4,
+      "both_wrong": 0,
+      "both_right": 23,
+      "mcnemar_exact_p": 0.125
+    }
+  },
+  "signature_ids_sha256": "a29c2995ddf8f87ce880eca0bd14a6a70ac55c25fb849bdcc2805df0e54cb4e2",
+  "final_list_sha256": "5d3b67992b24ddc6c83aaf1270786c6e001068e07df92c4bf74ac0c5641438c3"
+}

@@ -1,0 +1,2 @@
+{"_note": "Cell s1: only the attacker prompt differs from the base cell (adds two tactic families seen in Liezl's crafted seeds, 6 Nov).",
+ "attacker": {"prompt": "con-artist/configs/attacker_v2_seeded.md"}}

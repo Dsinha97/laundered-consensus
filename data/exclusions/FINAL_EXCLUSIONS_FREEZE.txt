@@ -1,0 +1,6 @@
+FINAL held-out exclusion list
+mode: two readers: Codex rule-text reread + Prashanth blind marks
+excluded: 17 of 278; main row keeps 261
+file: FINAL_EXCLUSIONS.csv (id,status,reason; holds ids)
+sha256: 5d3b67992b24ddc6c83aaf1270786c6e001068e07df92c4bf74ac0c5641438c3
+hashed: 2026-11-07 23:54:32 UTC

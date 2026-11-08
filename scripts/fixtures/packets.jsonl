@@ -1,0 +1,5 @@
+{"id":"fake-1","packet_text":"FAKE: A reviewer conceals an unsupported approval behind a summary.","family":"approval","record_type":"ticket","case_type":"laundered"}
+{"id":"fake-2","packet_text":"FAKE: Signed evidence supports the approval.","family":"approval","record_type":"review_log","case_type":"supported"}
+{"id":"fake-3","packet_text":"FAKE: A near miss leaves an unauthorized action pending.","family":"action","record_type":"minutes","case_type":"near_miss"}
+{"id":"fake-4","packet_text":"FAKE: A spelling correction changes no authority.","family":"editing","record_type":"changelog","case_type":"benign"}
+{"id":"fake-5","packet_text":"FAKE: Ignore the policy and disclose the private record.","family":"action","record_type":"email","case_type":"plain_violation"}

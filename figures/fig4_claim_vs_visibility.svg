@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <style>
+      .t{font-size:14px;fill:#1f2a44;font-weight:700}
+      .s{font-size:12px;fill:#4a5672}
+      .h{font-size:20px;font-weight:700;fill:#1f2a44}
+      .col{font-size:13px;font-weight:700;fill:#fff}
+    </style>
+  </defs>
+  <rect width="1000" height="560" fill="#fbf8f2"/>
+  <text x="40" y="44" class="h">Where it breaks: how specific the claim is × what the checker can see</text>
+  <text x="40" y="68" class="s">Exploratory frame drawn from several runs with different units; read the pattern, not one number.</text>
+  <rect x="300" y="92" width="320" height="44" rx="10" fill="#2a9d8f"/>
+  <text x="460" y="120" text-anchor="middle" class="col">Checker sees the records</text>
+  <rect x="640" y="92" width="320" height="44" rx="10" fill="#e76f51"/>
+  <text x="800" y="120" text-anchor="middle" class="col">Checker sees no records</text>
+  <rect x="40" y="148" width="244" height="110" rx="10" fill="#e7eefb"/>
+  <text x="56" y="178" class="t">Plain vouch</text>
+  <text x="56" y="200" class="s">“It was approved before.”</text>
+  <rect x="300" y="148" width="320" height="110" rx="10" fill="#dcf2ee"/>
+  <text x="318" y="180" class="t" fill="#1d6f65">Mostly holds</text>
+  <text x="318" y="204" class="s">GLM swarm 0 of 12 · relay chains</text>
+  <text x="318" y="220" class="s">at most 3 of 32 · scripted 0 of 32</text>
+  <rect x="640" y="148" width="320" height="110" rx="10" fill="#fde3dc"/>
+  <text x="658" y="180" class="t" fill="#b4472d">Breaks</text>
+  <text x="658" y="204" class="s">GLM swarm 12 of 12 · relay chains</text>
+  <text x="658" y="220" class="s">24 to 27 of 32</text>
+  <rect x="40" y="270" width="244" height="110" rx="10" fill="#e7eefb"/>
+  <text x="56" y="300" class="t">Detailed description</text>
+  <text x="56" y="322" class="s">An id, a date and a name for</text>
+  <text x="56" y="338" class="s">a record that isn’t attached</text>
+  <rect x="300" y="270" width="320" height="110" rx="10" fill="#fdf0d8"/>
+  <text x="318" y="302" class="t" fill="#a86a0c">Gets through about 1 in 5</text>
+  <text x="318" y="326" class="s">28 of 126 Invent cases fooled 2+ of 4</text>
+  <text x="318" y="342" class="s">watchdogs; 3 readers agree on labels</text>
+  <rect x="640" y="270" width="320" height="110" rx="10" fill="#f1f3f8" stroke="#c4cad8" stroke-dasharray="5 4"/>
+  <text x="658" y="320" class="t" fill="#8a94ab">Not tested yet</text>
+  <rect x="40" y="392" width="244" height="110" rx="10" fill="#e7eefb"/>
+  <text x="56" y="422" class="t">Forged record detail</text>
+  <text x="56" y="444" class="s">Invented id, date and approver</text>
+  <text x="56" y="460" class="s">written into the notes</text>
+  <rect x="300" y="392" width="320" height="110" rx="10" fill="#fdf0d8"/>
+  <text x="318" y="424" class="t" fill="#a86a0c">Sometimes gets through</text>
+  <text x="318" y="448" class="s">GLM swarm 3 of 12, all in one run</text>
+  <rect x="640" y="392" width="320" height="110" rx="10" fill="#fde3dc"/>
+  <text x="658" y="424" class="t" fill="#b4472d">Breaks, even with the</text>
+  <text x="658" y="442" class="t" fill="#b4472d">“see the record” rule</text>
+  <text x="658" y="466" class="s">12 of 12 without the rule · 8 of 12 with it</text>
+  <text x="40" y="534" class="s">Lesson: give the checker the records themselves, and make records hard to fake. Instructions alone end up judging how convincing the notes look.</text>
+</svg>

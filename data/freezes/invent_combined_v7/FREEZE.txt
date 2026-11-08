@@ -1,0 +1,9 @@
+Invent round 7 test set, frozen 2026-11-07 13:53:35 UTC (build time from MANIFEST.json).
+
+invent_v7_test_DO_NOT_TRAIN.jsonl  156 rows (54 clear, 102 flag)  sha256 4bd25dbeb58921e6e61ffee93cd4de0177e9b14a26c44fc6444cb4a952e0ec8f
+
+Built by ../assemble_v7.py from seven 30-row probe jobs launched 13:14-13:16 UTC. A row is kept only if the Codex rule-text check (GPT-6.1 Sol, effort low) says its label is OK and its mechanism is present (210 checked: 165 label OK, 161 mechanism present, 156 both).
+By mechanism: silent_record 27, explained_gap_flag 17, explained_gap_clear 20, described_absent 30, described_present 16, notes_only_flag 28, notes_only_clear 18.
+Maximum 5-word-shingle overlap with the earlier combined Invent sets: 0.05; within the set: 0.12.
+Use: outside test only, never trained on (team decision 7 Nov). explained_gap_flag, described_absent and notes_only_flag rows are attack-shaped: keep them private and describe them by category.
+No watchdog and no training run had seen the file at freeze time.

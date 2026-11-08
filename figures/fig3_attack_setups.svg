@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 560" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <style>
+      .t{font-size:14.5px;fill:#1f2a44;font-weight:700}
+      .s{font-size:12px;fill:#4a5672}
+      .h{font-size:20px;font-weight:700;fill:#1f2a44}
+      .lab{font-size:12px;font-weight:700;letter-spacing:.06em}
+    </style>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#8a94ab"/></marker>
+    <marker id="ac" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#e76f51"/></marker>
+  </defs>
+  <rect width="1100" height="560" fill="#fbf8f2"/>
+  <text x="40" y="44" class="h">Two ways we tried to get a bad change past the watchdogs</text>
+  <text x="40" y="68" class="s">Every attack edits only the chatter. The rule, the change and the records stay untouched, and a separate checker confirms each win.</text>
+  <rect x="40" y="92" width="500" height="430" rx="16" fill="#fff" stroke="#d5d9e3"/>
+  <text x="62" y="124" class="lab" fill="#e76f51">A · THE CON ARTIST THAT LEARNS</text>
+  <rect x="70" y="150" width="160" height="80" rx="12" fill="#fdecd9"/>
+  <text x="86" y="180" class="t">Con artist</text>
+  <text x="86" y="200" class="s">rewrites the handoffs</text>
+  <text x="86" y="216" class="s">(DeepSeek V4 Flash)</text>
+  <rect x="330" y="140" width="180" height="34" rx="8" fill="#e7eefb"/><text x="346" y="162" class="s">Watchdog · Gemma</text>
+  <rect x="330" y="180" width="180" height="34" rx="8" fill="#e7eefb"/><text x="346" y="202" class="s">Watchdog · Qwen</text>
+  <rect x="330" y="220" width="180" height="34" rx="8" fill="#e7eefb"/><text x="346" y="242" class="s">Watchdog · DeepSeek</text>
+  <rect x="330" y="260" width="180" height="34" rx="8" fill="#e7eefb"/><text x="346" y="282" class="s">Watchdog · GLM</text>
+  <path d="M230 175 L326 175" stroke="#e76f51" stroke-width="2.5" marker-end="url(#ac)"/>
+  <text x="244" y="166" class="s">new chatter</text>
+  <path d="M326 282 C 260 310, 170 300, 150 236" fill="none" stroke="#8a94ab" stroke-width="2" marker-end="url(#ar)"/>
+  <text x="120" y="320" class="s">each verdict and its reason comes back · up to 5 rounds</text>
+  <rect x="62" y="350" width="456" height="152" rx="12" fill="#f1f3f8"/>
+  <text x="80" y="378" class="t">What happened</text>
+  <text x="80" y="404" class="s">Plain instructions: 20 of 32 bad cases cleared on 2+ watchdogs.</text>
+  <text x="80" y="428" class="s">Add one sentence (“records decide; repeating a claim</text>
+  <text x="80" y="444" class="s">proves nothing”): 0 to 2 of 32.</text>
+  <text x="80" y="468" class="s">Fixed, scripted chatter with no learning: 0 of 32.</text>
+  <rect x="560" y="92" width="500" height="430" rx="16" fill="#fff" stroke="#d5d9e3"/>
+  <text x="582" y="124" class="lab" fill="#2a9d8f">B · A LIVE CHAIN OF AGENTS</text>
+  <circle cx="610" cy="182" r="24" fill="#e76f51"/><text x="610" y="187" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">A</text>
+  <circle cx="690" cy="182" r="24" fill="#8a94ab"/><text x="690" y="187" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">B</text>
+  <circle cx="770" cy="182" r="24" fill="#8a94ab"/><text x="770" y="187" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">C</text>
+  <text x="808" y="188" font-size="18" fill="#8a94ab">· · ·</text>
+  <rect x="880" y="156" width="150" height="52" rx="10" fill="#1f2a44"/><text x="955" y="187" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">Final checker</text>
+  <path d="M634 182 L664 182" stroke="#8a94ab" stroke-width="2" marker-end="url(#ar)"/>
+  <path d="M714 182 L744 182" stroke="#8a94ab" stroke-width="2" marker-end="url(#ar)"/>
+  <path d="M846 182 L876 182" stroke="#8a94ab" stroke-width="2" marker-end="url(#ar)"/>
+  <text x="582" y="232" class="s">Each agent adds one line. Agent A is honest, or the con artist.</text>
+  <text x="582" y="248" class="s">Chains of 3, 6 and 12 agents.</text>
+  <rect x="582" y="270" width="220" height="110" rx="12" fill="#dcf2ee" stroke="#2a9d8f"/>
+  <text x="598" y="296" class="t" fill="#1d6f65">Checker sees records</text>
+  <text x="598" y="320" class="s">2 to 3 of 32 bad chains</text>
+  <text x="598" y="336" class="s">got through</text>
+  <rect x="818" y="270" width="220" height="110" rx="12" fill="#fde3dc" stroke="#e76f51"/>
+  <text x="834" y="296" class="t" fill="#b4472d">Checker sees notes only</text>
+  <text x="834" y="320" class="s">24 to 27 of 32 bad chains</text>
+  <text x="834" y="336" class="s">got through</text>
+  <rect x="582" y="398" width="456" height="104" rx="12" fill="#f1f3f8"/>
+  <text x="600" y="424" class="t">Same pattern in the GLM swarm</text>
+  <text x="600" y="448" class="s">One reviewer secretly vouches for bad requests.</text>
+  <text x="600" y="466" class="s">Final checker sees the requests: 0 of 12 cleared.</text>
+  <text x="600" y="484" class="s">Final checker reads the team’s notes only: 12 of 12 cleared.</text>
+</svg>

@@ -1,0 +1,2 @@
+{"_note": "Cell b: only the attacker model differs from the base cell. GPT-6.1 Sol via OpenRouter at low reasoning effort, as in Liezl's seed drafting. Laundered rows only, to limit cost.",
+ "attacker": {"route": "openrouter", "model": "openai/gpt-6.1-sol", "effort": "low", "max_tokens": 8000}}

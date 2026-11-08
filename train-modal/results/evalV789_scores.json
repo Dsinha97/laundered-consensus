@@ -1,0 +1,683 @@
+{
+  "models": {
+    "base": {
+      "all": {
+        "k": 83,
+        "n": 795,
+        "rate": 0.1044,
+        "lo": 0.085,
+        "hi": 0.1276,
+        "small_n": false,
+        "parse_failures": 0,
+        "rows": 795
+      },
+      "round7_only": {
+        "k": 26,
+        "n": 156,
+        "rate": 0.1667,
+        "lo": 0.1163,
+        "hi": 0.233,
+        "small_n": false,
+        "parse_failures": 0,
+        "rows": 156
+      },
+      "without_round7": {
+        "k": 57,
+        "n": 639,
+        "rate": 0.0892,
+        "lo": 0.0695,
+        "hi": 0.1138,
+        "small_n": false,
+        "parse_failures": 0,
+        "rows": 639
+      },
+      "by_mechanism": {
+        "described_absent (gold flag)": {
+          "k": 41,
+          "n": 126,
+          "rate": 0.3254,
+          "lo": 0.2498,
+          "hi": 0.4113,
+          "small_n": false,
+          "parse_failures": 0,
+          "rows": 126
+        },
+        "described_present (gold clear)": {
+          "k": 0,
+          "n": 52,
+          "rate": 0.0,
+          "lo": 0,
+          "hi": 0.0688,
+          "small_n": false,
+          "parse_failures": 0,
+          "rows": 52
+        },
+        "explained_gap_clear (gold clear)": {
+          "k": 0,
+          "n": 45,
+          "rate": 0.0,
+          "lo": 0,
+          "hi": 0.0787,
+          "small_n": false,
+          "parse_failures": 0,
+          "rows": 45
+        },
+        "explained_gap_flag (gold flag)": {
+          "k": 13,
+          "n": 53,
+          "rate": 0.2453,
+          "lo": 0.1493,
+          "hi": 0.3757,
+          "small_n": false,
+          "parse_failures": 0,
+          "rows": 53
+        },
+        "notes_only_clear (gold clear)": {
+          "k": 0,
+          "n": 183,
+          "rate": 0.0,
+          "lo": 0,
+          "hi": 0.0206,
+          "small_n": false,
+          "parse_failures": 0,
+          "rows": 183
+        },
+        "notes_only_flag (gold flag)": {
+          "k": 0,
+          "n": 164,
+          "rate": 0.0,
+          "lo": 0,
+          "hi": 0.0229,
+          "small_n": false,
+          "parse_failures": 0,
+          "rows": 164
+        },
+        "silent_record (gold flag)": {
+          "k": 29,
+          "n": 172,
+          "rate": 0.1686,
+          "lo": 0.12,
+          "hi": 0.2317,
+          "small_n": false,
+          "parse_failures": 0,
+          "rows": 172
+        }
+      },
+      "signature_rule_rows": {
+        "k": 1,
+        "n": 34,
+        "rate": 0.0294,
+        "lo": 0.0052,
+        "hi": 0.1492,
+        "small_n": false,
+        "parse_failures": 0,
+        "rows": 34
+      },
+      "other_rows": {
+        "k": 82,
+        "n": 761,
+        "rate": 0.1078,
+        "lo": 0.0877,
+        "hi": 0.1318,
+        "small_n": false,
+        "parse_failures": 0,
+        "rows": 761
+      },
+      "signature_rule_gold_flag": {
+        "k": 1,
+        "n": 20,
+        "rate": 0.05,
+        "lo": 0.0089,
+        "hi": 0.2361,
+        "small_n": false,
+        "parse_failures": 0,
+        "rows": 20
+      },
+      "other_gold_flag": {
+        "k": 82,
+        "n": 495,
+        "rate": 0.1657,
+        "lo": 0.1355,
+        "hi": 0.201,
+        "small_n": false,
+        "parse_failures": 0,
+        "rows": 495
+      },
+      "signature_rule_gold_clear": {
+        "k": 0,
+        "n": 14,
+        "rate": 0.0,
+        "lo": 0,
+        "hi": 0.2153,
+        "small_n": false,
+        "parse_failures": 0,
+        "rows": 14
+      },
+      "other_gold_clear": {
+        "k": 0,
+        "n": 266,
+        "rate": 0.0,
+        "lo": 0,
+        "hi": 0.0142,
+        "small_n": false,
+        "parse_failures": 0,
+        "rows": 266
+      }
+    },
+    "sftA": {
+      "all": {
+        "k": 15,
+        "n": 795,
+        "rate": 0.0189,
+        "lo": 0.0115,
+        "hi": 0.0309,
+        "small_n": false,
+        "parse_failures": 0,
+        "rows": 795
+      },
+      "round7_only": {
+        "k": 1,
+        "n": 156,
+        "rate": 0.0064,
+        "lo": 0.0011,
+        "hi": 0.0354,
+        "small_n": false,
+        "parse_failures": 0,
+        "rows": 156
+      },
+      "without_round7": {
+        "k": 14,
+        "n": 639,
+        "rate": 0.0219,
+        "lo": 0.0131,
+        "hi": 0.0364,
+        "small_n": false,
+        "parse_failures": 0,
+        "rows": 639
+      },
+      "by_mechanism": {
+        "described_absent (gold flag)": {
+          "k": 0,
+          "n": 126,
+          "rate": 0.0,
+          "lo": 0,
+          "hi": 0.0296,
+          "small_n": false,
+          "parse_failures": 0,
+          "rows": 126
+        },
+        "described_present (gold clear)": {
+          "k": 1,
+          "n": 52,
+          "rate": 0.0192,
+          "lo": 0.0034,
+          "hi": 0.1012,
+          "small_n": false,
+          "parse_failures": 0,
+          "rows": 52
+        },
+        "explained_gap_clear (gold clear)": {
+          "k": 0,
+          "n": 45,
+          "rate": 0.0,
+          "lo": 0,
+          "hi": 0.0787,
+          "small_n": false,
+          "parse_failures": 0,
+          "rows": 45
+        },
+        "explained_gap_flag (gold flag)": {
+          "k": 6,
+          "n": 53,
+          "rate": 0.1132,
+          "lo": 0.0529,
+          "hi": 0.2258,
+          "small_n": false,
+          "parse_failures": 0,
+          "rows": 53
+        },
+        "notes_only_clear (gold clear)": {
+          "k": 0,
+          "n": 183,
+          "rate": 0.0,
+          "lo": 0,
+          "hi": 0.0206,
+          "small_n": false,
+          "parse_failures": 0,
+          "rows": 183
+        },
+        "notes_only_flag (gold flag)": {
+          "k": 0,
+          "n": 164,
+          "rate": 0.0,
+          "lo": 0,
+          "hi": 0.0229,
+          "small_n": false,
+          "parse_failures": 0,
+          "rows": 164
+        },
+        "silent_record (gold flag)": {
+          "k": 8,
+          "n": 172,
+          "rate": 0.0465,
+          "lo": 0.0238,
+          "hi": 0.0891,
+          "small_n": false,
+          "parse_failures": 0,
+          "rows": 172
+        }
+      },
+      "signature_rule_rows": {
+        "k": 0,
+        "n": 34,
+        "rate": 0.0,
+        "lo": 0,
+        "hi": 0.1015,
+        "small_n": false,
+        "parse_failures": 0,
+        "rows": 34
+      },
+      "other_rows": {
+        "k": 15,
+        "n": 761,
+        "rate": 0.0197,
+        "lo": 0.012,
+        "hi": 0.0323,
+        "small_n": false,
+        "parse_failures": 0,
+        "rows": 761
+      },
+      "signature_rule_gold_flag": {
+        "k": 0,
+        "n": 20,
+        "rate": 0.0,
+        "lo": 0,
+        "hi": 0.1611,
+        "small_n": false,
+        "parse_failures": 0,
+        "rows": 20
+      },
+      "other_gold_flag": {
+        "k": 14,
+        "n": 495,
+        "rate": 0.0283,
+        "lo": 0.0169,
+        "hi": 0.0469,
+        "small_n": false,
+        "parse_failures": 0,
+        "rows": 495
+      },
+      "signature_rule_gold_clear": {
+        "k": 0,
+        "n": 14,
+        "rate": 0.0,
+        "lo": 0,
+        "hi": 0.2153,
+        "small_n": false,
+        "parse_failures": 0,
+        "rows": 14
+      },
+      "other_gold_clear": {
+        "k": 1,
+        "n": 266,
+        "rate": 0.0038,
+        "lo": 0.0007,
+        "hi": 0.021,
+        "small_n": false,
+        "parse_failures": 0,
+        "rows": 266
+      }
+    },
+    "dpoB": {
+      "all": {
+        "k": 10,
+        "n": 785,
+        "rate": 0.0127,
+        "lo": 0.0069,
+        "hi": 0.0233,
+        "small_n": false,
+        "parse_failures": 10,
+        "rows": 795
+      },
+      "round7_only": {
+        "k": 1,
+        "n": 152,
+        "rate": 0.0066,
+        "lo": 0.0012,
+        "hi": 0.0363,
+        "small_n": false,
+        "parse_failures": 4,
+        "rows": 156
+      },
+      "without_round7": {
+        "k": 9,
+        "n": 633,
+        "rate": 0.0142,
+        "lo": 0.0075,
+        "hi": 0.0268,
+        "small_n": false,
+        "parse_failures": 6,
+        "rows": 639
+      },
+      "by_mechanism": {
+        "described_absent (gold flag)": {
+          "k": 0,
+          "n": 126,
+          "rate": 0.0,
+          "lo": 0,
+          "hi": 0.0296,
+          "small_n": false,
+          "parse_failures": 0,
+          "rows": 126
+        },
+        "described_present (gold clear)": {
+          "k": 1,
+          "n": 52,
+          "rate": 0.0192,
+          "lo": 0.0034,
+          "hi": 0.1012,
+          "small_n": false,
+          "parse_failures": 0,
+          "rows": 52
+        },
+        "explained_gap_clear (gold clear)": {
+          "k": 1,
+          "n": 43,
+          "rate": 0.0233,
+          "lo": 0.0041,
+          "hi": 0.1206,
+          "small_n": false,
+          "parse_failures": 2,
+          "rows": 45
+        },
+        "explained_gap_flag (gold flag)": {
+          "k": 4,
+          "n": 53,
+          "rate": 0.0755,
+          "lo": 0.0297,
+          "hi": 0.1786,
+          "small_n": false,
+          "parse_failures": 0,
+          "rows": 53
+        },
+        "notes_only_clear (gold clear)": {
+          "k": 0,
+          "n": 182,
+          "rate": 0.0,
+          "lo": 0,
+          "hi": 0.0207,
+          "small_n": false,
+          "parse_failures": 1,
+          "rows": 183
+        },
+        "notes_only_flag (gold flag)": {
+          "k": 0,
+          "n": 164,
+          "rate": 0.0,
+          "lo": 0,
+          "hi": 0.0229,
+          "small_n": false,
+          "parse_failures": 0,
+          "rows": 164
+        },
+        "silent_record (gold flag)": {
+          "k": 4,
+          "n": 165,
+          "rate": 0.0242,
+          "lo": 0.0095,
+          "hi": 0.0607,
+          "small_n": false,
+          "parse_failures": 7,
+          "rows": 172
+        }
+      },
+      "signature_rule_rows": {
+        "k": 0,
+        "n": 34,
+        "rate": 0.0,
+        "lo": 0,
+        "hi": 0.1015,
+        "small_n": false,
+        "parse_failures": 0,
+        "rows": 34
+      },
+      "other_rows": {
+        "k": 10,
+        "n": 751,
+        "rate": 0.0133,
+        "lo": 0.0072,
+        "hi": 0.0243,
+        "small_n": false,
+        "parse_failures": 10,
+        "rows": 761
+      },
+      "signature_rule_gold_flag": {
+        "k": 0,
+        "n": 20,
+        "rate": 0.0,
+        "lo": 0,
+        "hi": 0.1611,
+        "small_n": false,
+        "parse_failures": 0,
+        "rows": 20
+      },
+      "other_gold_flag": {
+        "k": 8,
+        "n": 488,
+        "rate": 0.0164,
+        "lo": 0.0083,
+        "hi": 0.032,
+        "small_n": false,
+        "parse_failures": 7,
+        "rows": 495
+      },
+      "signature_rule_gold_clear": {
+        "k": 0,
+        "n": 14,
+        "rate": 0.0,
+        "lo": 0,
+        "hi": 0.2153,
+        "small_n": false,
+        "parse_failures": 0,
+        "rows": 14
+      },
+      "other_gold_clear": {
+        "k": 2,
+        "n": 263,
+        "rate": 0.0076,
+        "lo": 0.0021,
+        "hi": 0.0273,
+        "small_n": false,
+        "parse_failures": 3,
+        "rows": 266
+      }
+    },
+    "dpoC": {
+      "all": {
+        "k": 13,
+        "n": 750,
+        "rate": 0.0173,
+        "lo": 0.0102,
+        "hi": 0.0294,
+        "small_n": false,
+        "parse_failures": 45,
+        "rows": 795
+      },
+      "round7_only": {
+        "k": 0,
+        "n": 146,
+        "rate": 0.0,
+        "lo": 0,
+        "hi": 0.0256,
+        "small_n": false,
+        "parse_failures": 10,
+        "rows": 156
+      },
+      "without_round7": {
+        "k": 13,
+        "n": 604,
+        "rate": 0.0215,
+        "lo": 0.0126,
+        "hi": 0.0365,
+        "small_n": false,
+        "parse_failures": 35,
+        "rows": 639
+      },
+      "by_mechanism": {
+        "described_absent (gold flag)": {
+          "k": 0,
+          "n": 122,
+          "rate": 0.0,
+          "lo": 0,
+          "hi": 0.0305,
+          "small_n": false,
+          "parse_failures": 4,
+          "rows": 126
+        },
+        "described_present (gold clear)": {
+          "k": 1,
+          "n": 51,
+          "rate": 0.0196,
+          "lo": 0.0035,
+          "hi": 0.103,
+          "small_n": false,
+          "parse_failures": 1,
+          "rows": 52
+        },
+        "explained_gap_clear (gold clear)": {
+          "k": 0,
+          "n": 43,
+          "rate": 0.0,
+          "lo": 0,
+          "hi": 0.082,
+          "small_n": false,
+          "parse_failures": 2,
+          "rows": 45
+        },
+        "explained_gap_flag (gold flag)": {
+          "k": 4,
+          "n": 50,
+          "rate": 0.08,
+          "lo": 0.0315,
+          "hi": 0.1884,
+          "small_n": false,
+          "parse_failures": 3,
+          "rows": 53
+        },
+        "notes_only_clear (gold clear)": {
+          "k": 0,
+          "n": 166,
+          "rate": 0.0,
+          "lo": 0.0,
+          "hi": 0.0226,
+          "small_n": false,
+          "parse_failures": 17,
+          "rows": 183
+        },
+        "notes_only_flag (gold flag)": {
+          "k": 0,
+          "n": 159,
+          "rate": 0.0,
+          "lo": 0,
+          "hi": 0.0236,
+          "small_n": false,
+          "parse_failures": 5,
+          "rows": 164
+        },
+        "silent_record (gold flag)": {
+          "k": 8,
+          "n": 159,
+          "rate": 0.0503,
+          "lo": 0.0257,
+          "hi": 0.0961,
+          "small_n": false,
+          "parse_failures": 13,
+          "rows": 172
+        }
+      },
+      "signature_rule_rows": {
+        "k": 0,
+        "n": 33,
+        "rate": 0.0,
+        "lo": 0,
+        "hi": 0.1043,
+        "small_n": false,
+        "parse_failures": 1,
+        "rows": 34
+      },
+      "other_rows": {
+        "k": 13,
+        "n": 717,
+        "rate": 0.0181,
+        "lo": 0.0106,
+        "hi": 0.0308,
+        "small_n": false,
+        "parse_failures": 44,
+        "rows": 761
+      },
+      "signature_rule_gold_flag": {
+        "k": 0,
+        "n": 19,
+        "rate": 0.0,
+        "lo": 0,
+        "hi": 0.1682,
+        "small_n": false,
+        "parse_failures": 1,
+        "rows": 20
+      },
+      "other_gold_flag": {
+        "k": 12,
+        "n": 471,
+        "rate": 0.0255,
+        "lo": 0.0146,
+        "hi": 0.044,
+        "small_n": false,
+        "parse_failures": 24,
+        "rows": 495
+      },
+      "signature_rule_gold_clear": {
+        "k": 0,
+        "n": 14,
+        "rate": 0.0,
+        "lo": 0,
+        "hi": 0.2153,
+        "small_n": false,
+        "parse_failures": 0,
+        "rows": 14
+      },
+      "other_gold_clear": {
+        "k": 1,
+        "n": 246,
+        "rate": 0.0041,
+        "lo": 0.0007,
+        "hi": 0.0227,
+        "small_n": false,
+        "parse_failures": 20,
+        "rows": 266
+      }
+    }
+  },
+  "paired_vs_first": {
+    "sftA": {
+      "reference": "base",
+      "paired_rows": 795,
+      "ref_wrong_only": 69,
+      "model_wrong_only": 1,
+      "mcnemar_p": 1.2027867851011065e-19
+    },
+    "dpoB": {
+      "reference": "base",
+      "paired_rows": 785,
+      "ref_wrong_only": 75,
+      "model_wrong_only": 2,
+      "mcnemar_p": 3.975760896174872e-20
+    },
+    "dpoC": {
+      "reference": "base",
+      "paired_rows": 750,
+      "ref_wrong_only": 62,
+      "model_wrong_only": 1,
+      "mcnemar_p": 1.3877787807814457e-17
+    }
+  }
+}

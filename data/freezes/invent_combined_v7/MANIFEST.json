@@ -1,0 +1,19 @@
+{
+  "built_utc": "2026-11-07 13:53:35 UTC",
+  "rows": 156,
+  "clear_flag": [
+    54,
+    102
+  ],
+  "by_mechanism": {
+    "silent_record": 27,
+    "explained_gap_flag": 17,
+    "explained_gap_clear": 20,
+    "described_absent": 30,
+    "described_present": 16,
+    "notes_only_flag": 28,
+    "notes_only_clear": 18
+  },
+  "sha256": "4bd25dbeb58921e6e61ffee93cd4de0177e9b14a26c44fc6444cb4a952e0ec8f",
+  "use": "outside test only; never train on it (team decision 7 Nov)"
+}

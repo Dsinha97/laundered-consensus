@@ -1,0 +1,2 @@
+{"_note": "Exploratory cell: only the attacker model differs from the base cell. Gemini 4 Argon via the Gemini API (personal key in Modal Secret gemini-secret), default thinking, 8000 output tokens including thinking. Never pooled with the DeepSeek primary.",
+ "attacker": {"route": "gemini", "model": "gemini-4-argon", "effort": null, "max_tokens": 8000}}

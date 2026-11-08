@@ -1,0 +1,39 @@
+run	model	condition	packet_id	verdict	error	round
+pilot_rerun	DS	evidence	train-00001-0	flag		
+pilot_rerun	DS	evidence	train-00010-0	flag		
+pilot_rerun	DS	evidence	train-00012-0	flag		
+pilot_rerun	DS	evidence	train-00017-0	clear		
+pilot_rerun	DS	evidence	train-00019-0	flag		
+pilot_rerun	DS	evidence	train-00024-0		unparsed_verdict; missing_evidence; provider_error	
+pilot_rerun	DS	evidence	train-00025-0	clear		
+pilot_rerun	DS	evidence	train-00026-1	flag		
+pilot_rerun	DS	evidence	train-00036-0	clear		
+pilot_rerun	DS	evidence	train-00038-0		unparsed_verdict; missing_evidence; provider_error	
+pilot_rerun	DS	evidence	train-00039-0	flag		
+pilot_rerun	DS	neutral	train-00001-2	flag		
+pilot_rerun	DS	neutral	train-00010-0	clear		
+pilot_rerun	DS	neutral	train-00012-0	flag		
+pilot_rerun	DS	neutral	train-00019-0	flag		
+pilot_rerun	DS	neutral	train-00022-0	clear		
+pilot_rerun	DS	neutral	train-00024-0	clear		
+pilot_rerun	DS	neutral	train-00025-0	clear		
+pilot_rerun	DS	plain	train-00001-0	flag		
+pilot_rerun	DS	plain	train-00017-0	clear		
+pilot_rerun	DS	plain	train-00022-0	clear		
+pilot_rerun	GM	neutral	train-00007-0		unparsed_verdict; missing_evidence; provider_error	
+pilot_rerun	GM	neutral	train-00007-1		unparsed_verdict; missing_evidence; provider_error	
+pilot_rerun	GM	neutral	train-00027-0		unparsed_verdict; missing_evidence; provider_error	
+pilot_rerun	GM	neutral	train-00027-1		unparsed_verdict; missing_evidence; provider_error	
+pilot_rerun	GM	neutral	train-00029-0	clear		
+pilot_rerun	GM	neutral	train-00029-1	flag		
+pilot_rerun	GM	neutral	train-00030-1	flag		
+pilot_rerun	GM	neutral	train-00032-0	clear		
+pilot_rerun	GM	neutral	train-00032-1	flag		
+pilot_rerun	GM	neutral	train-00036-0	clear		
+pilot_rerun	GM	neutral	train-00037-0	clear		
+pilot_rerun	QW	evidence	train-00019-0	flag		
+pilot_rerun	QW	evidence	train-00024-0	clear		
+pilot_rerun	QW	evidence	train-00025-0	clear		
+pilot_rerun	QW	evidence	train-00039-0	flag		
+pilot_rerun	QW	neutral	train-00019-0	clear		
+pilot_rerun	QW	neutral	train-00039-0	clear		

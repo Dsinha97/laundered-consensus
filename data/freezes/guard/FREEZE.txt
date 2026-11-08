@@ -1,0 +1,6 @@
+Fri Nov  6 23:45:59 UTC 2026
+7638d76e9e5a4e3ba8297611716c4f94e9913a002f95563a978a9a810aee1ec8 *sprint/guard/prompts/prompt_guard1.txt
+6c7b68bcb2a9e2963b4c28158e67ef5937d899a18c14a67a76fe46d9b87b68ec *sprint/guard/prompts/prompt_guard3.txt
+bdc71741bc9308cf7f15dc97a70e15cc20be53fa6c440357c4f6d9397b3a9f98 *sprint/guard/prompts/prompt_plain.txt
+3e369aaec1d77099789e2872581979cb29c0b078084f37bfa826bd5e26d2808c *sprint/heldout_audit/heldout_v2_exclusions.csv
+9843322e0309810c8a960a489ef3565bd3ddc7d8b7703b292f41f30fac742c12 *sprint/gen/out/heldout_v2_DO_NOT_TRAIN.jsonl

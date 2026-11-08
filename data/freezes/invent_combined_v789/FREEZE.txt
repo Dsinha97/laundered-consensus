@@ -1,0 +1,9 @@
+Invent rounds 7-9 outside-test set, frozen 2026-11-07 16:02:32 UTC (build time from MANIFEST.json).
+
+invent_v789_test_DO_NOT_TRAIN.jsonl  795 rows (280 clear, 515 flag)  sha256 0dd228744effc1c4063b0bf22aed0e4cc719336740f47a23193384f1a673e167
+
+Built by ../assemble_v789.py. Includes the round-7 frozen set unchanged (156 rows, sha256 4bd25dbe..., which stays frozen on its own) plus every row from the round-8 re-probes, the round-8 150-row scale-ups and round 9 that passed the Codex rule-text label check AND the mechanism check. One near-copy dropped.
+By mechanism: silent_record 172, described_absent 126, notes_only_flag 164, notes_only_clear 183, explained_gap_flag 53, explained_gap_clear 45, described_present 52.
+Maximum 5-word-shingle overlap with the earlier combined Invent sets: 0.06.
+Use: outside test only, never trained on (team decision 7 Nov). explained_gap_flag, described_absent and notes_only_flag rows are attack-shaped: keep them private and describe them by category.
+No watchdog had seen the 639 rows added after round 7 at freeze time. The round-7 rows had already been scored by the four base watchdogs (sprint/runs/invent_v7_base/).

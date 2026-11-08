@@ -1,0 +1,2 @@
+{"_note": "Cell att4: only the attacker output budget differs from the base cell (16,000 tokens instead of 8,000), because 286 of 1,806 attacker calls in att3 ran out of tokens in hidden reasoning.",
+ "attacker": {"max_tokens": 16000}}

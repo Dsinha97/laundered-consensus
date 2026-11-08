@@ -1,0 +1,41 @@
+{
+  "addendum_to": "evalV789",
+  "addendum_number": 2,
+  "written": "2026-11-07 19:01:55 UTC, before any generation on the v789 eval input; no output for it exists",
+  "freeze_file_sha256_at_writing": "47b76495202e5b401ce4dfebc56712cb4509a585a288e7fd2b7afeef2cc45a9d",
+  "freeze_file_unchanged": true,
+  "addendum_1_sha256_at_writing": "619bed11ded3758180b689c86d2bfd97b7f09fb45107a8cb57154431ab5ac246",
+  "reason": "Liezl's errata (7 Nov, her statement; checked here): row inv789-0042 (= inv7-042, round 7, explained_gap_flag, gold flag) had Invent's chosen and rejected lines, with case labels, left after its records section. She made a fixed copy with only that leftover removed. The freeze excluded the row by name; addendum 2 puts the fixed copy back, as she asked.",
+  "supersedes": "The freeze's excluded_row entry and its eval_input line (794 rows, sha256 bf48e4eafd9d8b3117ae1f89eba3199ee598bc8dae1cff6ed86f6e61faf56bab). Everything else in the freeze and in addendum 1 stands.",
+  "new_eval_input": {
+    "path": "train-modal/eval_input/v789_eval_input.jsonl (git-ignored)",
+    "rows": 795,
+    "sha256": "ac35316fa4fbd5e2bbde2096b6826f5654789c1a917b74bd9d8c9eb7350edd5f",
+    "built_by": "make_eval_input_v789.py with --fixed-row (new option) from the v789 file (sha256 0dd22874...73e167)",
+    "check": "the other 794 rows are byte-identical to the frozen 794-row input; the 795th is the fixed copy of inv789-0042 (988 characters, no label or verdict key)",
+    "frozen_794_copy_kept_as": "train-modal/eval_input/v789_eval_input_794_frozen.jsonl"
+  },
+  "fixed_row": {
+    "file": "plans/prompts/swarm_invent_errata_2026-11-07/errata/inv789-0042_fixed.jsonl",
+    "sha256_lf_normalised_as_stated_by_liezl": "43316d4363da562ca5cc4332598f1d593d9eb0d82af6126f46bdced3536c8196 (matches here after converting CRLF to LF)",
+    "sha256_of_file_bytes_here_with_crlf": "f11fe50e2d2505ed03326eff36130373fae4d5dc5a1d91ea7cb918e58cc5009a",
+    "checks_in_builder": "every field except prompt equals the original; the fixed prompt is the original prompt cut at the end; no label or verdict key remains",
+    "errata_note_sha256": "dfa77634e3f721b350e04975ad8e3b859a8c1ab91f6479763a8f41484f1ebb32"
+  },
+  "effect_on_pre_registered_rows": {
+    "described_absent": "126 rows, unchanged",
+    "silent_record": "172 rows, unchanged",
+    "explained_gap_flag": "53 rows (was 52 after the exclusion); exploratory as before; the base watchdogs' verdicts on this row were made with the leftover visible, so the base comparison for explained_gap_flag uses 52 rows or marks the row",
+    "round7_only": "156 rows (was 155)",
+    "signature_split": "unchanged: 34 signature-rule rows (20 gold flag, 14 gold clear), 761 other; id-list sha256 d467204a73827f5496f997272e2b7243baa85c9b150d5f7552ad170f8d362f64",
+    "sensitivity_row_of_addendum_1": "unchanged: the 29 ids (list sha256 47360bfb8795ee19c62c1db375a2fc937da51c06df40932e777753aed5774c5f) are all in the new input; 0042 is not on the list",
+    "decision_rule": "unchanged: no tuning, no re-run, report the direction found; no output opened before the held-out v2 main row is scored"
+  },
+  "other_affected_row": "inv-0377 (v4 benign_flag, in the morning combined Invent test of 156) has the same leftover; it is not in this eval input. Any later scoring of that combined test must use Liezl's fixed copy or exclude the row by name, and say so.",
+  "script_hashes_not_covered_by_freeze_verify": {
+    "make_eval_input_v789.py": "0e655baab20fda2443264ab91f5081cdd9a392d40eaa74189dffc9b52a63fdae (replaces the hash in the freeze's extra)",
+    "tests/test_v789.py": "1e345819c3b08e35145f592e8b6bcce8005aa6e86a595463f97d309e47885a83 (replaces the hash in the freeze's extra; 38 offline tests pass)",
+    "score_v789.py": "5167ccf7634656e1e36b458bb95aa55b583578ab7231d9981f89679aca85db32 (unchanged)",
+    "score_v789_sensitivity.py and signature_split.py": "unchanged since the freeze and addendum 1"
+  }
+}

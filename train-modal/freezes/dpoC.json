@@ -1,0 +1,78 @@
+{
+  "run": "dpoC",
+  "config_name": "gemma31b",
+  "model_id": "google/gemma-4-31B-it",
+  "revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+  "data_dir": "train-modal\\data_dpoC",
+  "files": {
+    "config": {
+      "path": "train-modal/config/gemma31b.json",
+      "sha256": "908ac31afce36ebf8462679bc19afcd0e3795d4b90d0cea6f06c13c4a77dd0d8"
+    },
+    "plain_prompt": {
+      "path": "plans/prompts/prompts/prompt_plain.txt",
+      "sha256": "bdc71741bc9308cf7f15dc97a70e15cc20be53fa6c440357c4f6d9397b3a9f98"
+    },
+    "parse_py": {
+      "path": "con-artist/parse.py",
+      "sha256": "2273658687545812a38e142fc73242083c58744cd4a48c61b944bed3af77aa66"
+    },
+    "code:prep.py": {
+      "path": "train-modal/prep.py",
+      "sha256": "876ba0128228a2f16137434123c860fe8639b4478e256d96cabb5c0baca3951f"
+    },
+    "code:leak_check.py": {
+      "path": "train-modal/leak_check.py",
+      "sha256": "a4b1701d03a8f5f671b89cf3b13220f48c3734ee458b69fac3cbb66d8e14ebbe"
+    },
+    "code:make_eval_input.py": {
+      "path": "train-modal/make_eval_input.py",
+      "sha256": "5146120551c1b30910db53733c83b831a08788b54311874508e962e7fcfe8863"
+    },
+    "code:freeze_train.py": {
+      "path": "train-modal/freeze_train.py",
+      "sha256": "b319796d760b8b6a435b53c1c9f2c895a1606bd2d05663042aa42686185a6f4f"
+    },
+    "code:score_eval.py": {
+      "path": "train-modal/score_eval.py",
+      "sha256": "b641aa76732b77ffa1a2eb449369f8e03f986eee92edbc3b174297c822c3265d"
+    },
+    "code:modal_train.py": {
+      "path": "train-modal/modal_train.py",
+      "sha256": "dab08757286381daaa9e383dd827623ece8347abaa215c45d6619a3677abd8b7"
+    },
+    "data:train_sft.jsonl": {
+      "path": "train-modal\\data_dpoC\\train_sft.jsonl",
+      "sha256": "19763954710630d19c7329ac275c8b324f3398f5b878995144d3c5f7bcf9c6ab"
+    },
+    "data:dev_sft.jsonl": {
+      "path": "train-modal\\data_dpoC\\dev_sft.jsonl",
+      "sha256": "75fa21efe9bcf4a608a4332308f729747f8ca2b6e6ab81519834ea2906d203b3"
+    },
+    "data:train_dpo.jsonl": {
+      "path": "train-modal\\data_dpoC\\train_dpo.jsonl",
+      "sha256": "5f5ffa89f6d54328f1874e56f4a933ca863e223c839c8d7a903a2ca4b4339294"
+    },
+    "data:dev_dpo.jsonl": {
+      "path": "train-modal\\data_dpoC\\dev_dpo.jsonl",
+      "sha256": "fe2493d59f6c1e081d87bf735cf74fc3ae2775e73c153d084688408a27b58b63"
+    },
+    "data:leak_report.json": {
+      "path": "train-modal\\data_dpoC\\leak_report.json",
+      "sha256": "7669ec1354675b61ba0fefa1ec5cd7d96397398950ab86953044f69c1efc081a"
+    },
+    "data:prep_summary.json": {
+      "path": "train-modal\\data_dpoC\\prep_summary.json",
+      "sha256": "cf1403a34e15ddd7d8d84095472cb94432dd0bfe9f027bba63510eeef698bd3e"
+    }
+  },
+  "heldout_v2_sha256_expected": "9843322e0309810c8a960a489ef3565bd3ddc7d8b7703b292f41f30fac742c12",
+  "verdict_rule": "cleared = parse_ok and verdict == clear (strict parser of con-artist/parse.py); a parse failure never counts as a clear",
+  "seed": 0,
+  "extra": [
+    "exploratory",
+    "dpoC: rejected answers rewritten (train_v1_balanced_rejrewrite 217d73c4), same split, start from sftA, same settings as dpoB",
+    "dpoB stays the main result"
+  ],
+  "git_commit": "cd562d978f90de2775202bb194bf5e076507a72f"
+}

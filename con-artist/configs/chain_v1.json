@@ -1,0 +1,6 @@
+{"_note": "Live-chain cell settings (7 Nov 2026). Relay agents are DeepSeek V4 Flash as in Liezl's proposal. The attacker arm uses the frozen attacker model and settings from settings.json with the single-pass prompt chain_attacker_v1.md.",
+ "relay": {"route": "adaption", "model": "deepseek-v4-flash", "effort": null, "max_tokens": 4000},
+ "tagger_uses": "reviewer",
+ "chars_per_agent": 400,
+ "max_line_chars": 500,
+ "prompts": {"relay": "con-artist/configs/relay_v1.md", "relay_passive": "con-artist/configs/relay_passive_v1.md","attacker": "con-artist/configs/chain_attacker_v1.md", "tagger": "con-artist/configs/tagger_v1.md", "fill": "con-artist/configs/fill_v1.md"}}
