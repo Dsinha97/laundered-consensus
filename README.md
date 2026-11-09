@@ -68,4 +68,4 @@ Scripts read API keys from the environment or a local env file at run time. No k
 
 ## License
 
-Suggested: MIT for code, CC BY 4.0 for data and figures. See `LICENSE_SUGGESTION.md`.
+No license has been chosen yet, so all rights are reserved for now. The authors will decide after the sprint is graded.
