@@ -54,9 +54,11 @@ The prior-work line is the 6 November 2026 kickoff. Items marked † in the repo
 
 | Item | Author | Date | Used for |
 |---|---|---|---|
-| Pilot packets (87 rows, 39 sets) and scripted handoffs† | Coetzee | [team: date] | Positive control, attack targets |
-| Quiet Suppression study and harness† | all three | October 2026 | Motivation, harness |
-| `tools/ask_model.py`, `modal-run/adaption_smoke.py`† | Sinha | before 6 Nov [team: date] | Model calls, training smoke test |
+| Quiet Suppression study and harness† | all three | 23 to 25 Oct 2026 | Motivation, harness |
+| `tools/ask_model.py`† | Sinha | 30 Oct 2026 | Model-call request format (informed `providers.py`; no code reused) |
+| `modal-run/adaption_smoke.py`† (not in this repository) | Sinha | 30 Oct 2026 | Training smoke test |
+
+The pilot packets (87 rows, 39 sets), scripted handoffs and watchdog prompts were made after the kickoff (Coetzee started them about 10 minutes after the 12:00 UTC start on 6 November), so they are sprint work and carry no †.
 
 Outside code is listed in the `con-artist/` and `train-modal/` READMEs.
 
